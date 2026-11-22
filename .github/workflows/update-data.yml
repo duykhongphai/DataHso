@@ -1,0 +1,122 @@
+name: Cập nhật dữ liệu HSO
+
+on:
+  schedule:
+    # 06:15 giờ Việt Nam (UTC+7). Lệch đầu giờ để tránh hàng đợi Actions đông.
+    - cron: "15 23 * * *"
+  workflow_dispatch:
+    inputs:
+      bo-qua-anh:
+        description: "Bỏ qua tải ảnh"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cap-nhat-data-hso
+  cancel-in-progress: false
+
+jobs:
+  cap-nhat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      HSO_MAY_CHU: ${{ vars.HSO_MAY_CHU || 'Chiến Thần' }}
+      HSO_THUMUC: ${{ vars.HSO_THUMUC || 'ChienThan' }}
+      HSO_NHAN_VAT: ${{ vars.HSO_NHAN_VAT || '0' }}
+      HSO_ITEM_TOI_DA: ${{ vars.HSO_ITEM_TOI_DA || '4000' }}
+      HSO_RA: .
+
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Dựng headless client
+        run: dotnet publish HeadlessClient/DataHso.HeadlessClient/DataHso.HeadlessClient.csproj -c Release --nologo -o may
+
+      - name: Đăng nhập và lấy dữ liệu
+        env:
+          HSO_TAIKHOAN: ${{ secrets.HSO_TAIKHOAN }}
+          BO_QUA_ANH: ${{ github.event.inputs.bo-qua-anh }}
+        run: |
+          set -euo pipefail
+          if [ -z "${HSO_TAIKHOAN:-}" ]; then
+            echo "::error::Chưa có secret HSO_TAIKHOAN theo dạng tài_khoản|mật_khẩu"
+            exit 1
+          fi
+
+          IFS='|' read -r HSO_TK HSO_MK <<< "$HSO_TAIKHOAN"
+          if [ -z "${HSO_TK:-}" ] || [ -z "${HSO_MK:-}" ]; then
+            echo "::error::Secret HSO_TAIKHOAN phải có dạng tài_khoản|mật_khẩu"
+            exit 1
+          fi
+          export HSO_TK HSO_MK
+          [ "${BO_QUA_ANH:-}" = "true" ] && export HSO_KHONG_ANH=1
+
+          timeout -k 15 2400 ./may/DataHso.HeadlessClient
+
+      - name: Dọn tệp dựng
+        if: always()
+        run: rm -rf may
+
+      - name: Kiểm tra dữ liệu
+        run: |
+          set -e
+          dir="TeaMobi/$HSO_THUMUC"
+          test -s "$dir/Potions.json"
+          test -s "$dir/Monsters.json"
+          test -s "$dir/Characters.json"
+          echo "Máy chủ: $HSO_MAY_CHU"
+          echo "Potion: $(jq length "$dir/Potions.json")"
+          echo "Quái: $(jq length "$dir/Monsters.json")"
+          echo "Trang bị: $(jq length "$dir/EquipmentItems.json")"
+          echo "Ảnh: $(find "$dir/Icons" -type f 2>/dev/null | wc -l)"
+
+      - name: Sinh mục lục
+        run: |
+          python3 - <<'PY'
+          import json, os
+
+          servers = []
+          root = "TeaMobi"
+          if os.path.isdir(root):
+              for folder in sorted(os.listdir(root)):
+                  path = os.path.join(root, folder)
+                  meta = os.path.join(path, "Server.json")
+                  if not os.path.isfile(meta):
+                      continue
+                  with open(meta, encoding="utf-8") as f:
+                      server = json.load(f)
+                  server["id"] = folder
+                  servers.append(server)
+
+          with open("index.json", "w", encoding="utf-8") as f:
+              json.dump({"servers": servers}, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+          PY
+
+      - name: Commit và đẩy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Dữ liệu không đổi."
+            exit 0
+          fi
+          git commit -m "data: cập nhật tự động $(date -u +%Y-%m-%d)"
+          for lan in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main || { git rebase --abort || true; exit 1; }
+            sleep 5
+          done
+          exit 1
+
