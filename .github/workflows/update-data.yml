@@ -22,11 +22,10 @@ concurrency:
 jobs:
   cap-nhat:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     env:
-      HSO_MAY_CHU: ${{ vars.HSO_MAY_CHU || 'Chiến Thần' }}
-      HSO_THUMUC: ${{ vars.HSO_THUMUC || 'ChienThan' }}
-      HSO_NHAN_VAT: ${{ vars.HSO_NHAN_VAT || '0' }}
+      # Dữ liệu HSO dùng chung giữa các server nên mọi lượt đều ghi vào một kho.
+      HSO_THUMUC: ${{ vars.HSO_THUMUC || 'DuLieu' }}
       HSO_ITEM_TOI_DA: ${{ vars.HSO_ITEM_TOI_DA || '4000' }}
       HSO_RA: .
 
@@ -42,7 +41,7 @@ jobs:
       - name: Dựng headless client
         run: dotnet publish HeadlessClient/DataHso.HeadlessClient/DataHso.HeadlessClient.csproj -c Release --nologo -o may
 
-      - name: Đăng nhập và lấy dữ liệu
+      - name: Đăng nhập lần lượt các nhân vật và lấy dữ liệu
         env:
           HSO_TAIKHOAN: ${{ secrets.HSO_TAIKHOAN }}
           BO_QUA_ANH: ${{ github.event.inputs.bo-qua-anh }}
@@ -61,7 +60,26 @@ jobs:
           export HSO_TK HSO_MK
           [ "${BO_QUA_ANH:-}" = "true" ] && export HSO_KHONG_ANH=1
 
-          timeout -k 15 2400 ./may/DataHso.HeadlessClient
+          # Cùng một tài khoản chỉ đăng nhập được một nhân vật tại một thời điểm.
+          # Chạy tuần tự để phiên trước thoát hẳn rồi mới chuyển slot/server.
+          targets=(
+            "Nhân Mã (Độc)|hs5.teamobi.com|0"
+            "Nhân Mã (Lửa)|hs5.teamobi.com|1"
+            "Kì Lân (Băng)|hs6.teamobi.com|0"
+            "Thiên Hà (Điện)|hs7.teamobi.com|0"
+          )
+
+          for target in "${targets[@]}"; do
+            IFS='|' read -r name host slot <<< "$target"
+            echo "::group::$name - slot $slot"
+            timeout -k 15 2400 ./may/DataHso.HeadlessClient \
+              --maychu "$name" \
+              --host "$host" \
+              --port 19129 \
+              --nhan-vat "$slot"
+            echo "::endgroup::"
+            sleep 3
+          done
 
       - name: Dọn tệp dựng
         if: always()
@@ -74,7 +92,7 @@ jobs:
           test -s "$dir/Potions.json"
           test -s "$dir/Monsters.json"
           test -s "$dir/Characters.json"
-          echo "Máy chủ: $HSO_MAY_CHU"
+          echo "Kho dữ liệu dùng chung: $dir"
           echo "Potion: $(jq length "$dir/Potions.json")"
           echo "Quái: $(jq length "$dir/Monsters.json")"
           echo "Trang bị: $(jq length "$dir/EquipmentItems.json")"

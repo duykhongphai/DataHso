@@ -17,7 +17,9 @@ khiển cửa sổ game.
 - Ảnh icon được các bảng trên tham chiếu.
 - Gói gốc quan trọng trong `RawPackets/` để tiếp tục giải mã các phần chưa hỗ trợ.
 
-Các file JSON nằm trong `TeaMobi/<thư-mục-server>/`. Ảnh được chia theo nghìn, ví dụ
+Các file JSON nằm trong kho dùng chung `TeaMobi/DuLieu/`. Dữ liệu game giống nhau giữa các
+server nên workflow đăng nhập tuần tự nhiều nhân vật nhưng vẫn hợp nhất vào cùng một thư mục.
+Ảnh được chia theo nghìn, ví dụ
 `Icons/6/6025.png`.
 
 ## Cấu hình GitHub Actions
@@ -26,13 +28,17 @@ Tạo repository secret:
 
 - `HSO_TAIKHOAN`: `tài_khoản|mật_khẩu`
 
-Các repository variables tùy chọn:
+Workflow hiện chạy tuần tự các nguồn sau bằng cùng tài khoản trong secret:
 
-- `HSO_MAY_CHU`: tên server; mặc định `Chiến Thần`. Client tự đọc danh sách sống từ endpoint
-  chính thức nên không cần điền IP.
-- `HSO_THUMUC`: thư mục lưu; mặc định `ChienThan`.
-- `HSO_NHAN_VAT`: **index 0-based** trong màn chọn nhân vật; `0` là nhân vật đầu tiên,
-  `1` là nhân vật thứ hai, `2` là nhân vật thứ ba.
+- Nhân Mã (`hs5`), slot 0 (Độc).
+- Nhân Mã (`hs5`), slot 1 (Lửa).
+- Kì Lân (`hs6`), slot 0 (Băng).
+- Thiên Hà (`hs7`), slot 0 (Điện).
+
+Mỗi lượt được ngắt kết nối hoàn toàn trước khi chuyển sang slot hoặc server tiếp theo. Các
+repository variables tùy chọn:
+
+- `HSO_THUMUC`: thư mục kho dùng chung; mặc định `DuLieu`.
 - `HSO_ITEM_TOI_DA`: ID trang bị lớn nhất cần quét; mặc định `4000`.
 
 Workflow chạy hằng ngày lúc khoảng 06:15 giờ Việt Nam và cũng có thể chạy tay trong tab
