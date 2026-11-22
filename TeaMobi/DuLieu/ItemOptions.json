@@ -1,0 +1,1448 @@
+[
+  {
+    "id": 0,
+    "ten": "S.th\u01B0\u01A1ng v\u1EADt l\u00FD",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 1,
+    "ten": "S.th\u01B0\u01A1ng b\u0103ng",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 2,
+    "ten": "S.th\u01B0\u01A1ng l\u1EEDa",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 3,
+    "ten": "S.th\u01B0\u01A1ng \u0111i\u1EC7n",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 4,
+    "ten": "S.th\u01B0\u01A1ng \u0111\u1ED9c",
+    "mau": 5,
+    "laPhanTram": 0
+  },
+  {
+    "id": 5,
+    "ten": "S.th\u01B0\u01A1ng b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 0
+  },
+  {
+    "id": 6,
+    "ten": "S.th\u01B0\u01A1ng \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 7,
+    "ten": "\u002B S.th\u01B0\u01A1ng v\u1EADt l\u00FD",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 8,
+    "ten": "\u002B S.th\u01B0\u01A1ng b\u0103ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 9,
+    "ten": "\u002B S.th\u01B0\u01A1ng l\u1EEDa",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 10,
+    "ten": "\u002B S.th\u01B0\u01A1ng \u0111i\u1EC7n",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 11,
+    "ten": "\u002B S.th\u01B0\u01A1ng \u0111\u1ED9c",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 12,
+    "ten": "\u002B S.th\u01B0\u01A1ng b\u00F3ng t\u1ED1i",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 13,
+    "ten": "\u002B S.th\u01B0\u01A1ng \u00E1nh s\u00E1ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 14,
+    "ten": "Ph\u00F2ng th\u1EE7",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 15,
+    "ten": "\u002B Ph\u00F2ng th\u1EE7",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 16,
+    "ten": "Kh\u00E1ng v\u1EADt l\u00FD",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 17,
+    "ten": "Kh\u00E1ng b\u0103ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 18,
+    "ten": "Kh\u00E1ng l\u1EEDa",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 19,
+    "ten": "Kh\u00E1ng \u0111i\u1EC7n",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 20,
+    "ten": "Kh\u00E1ng \u0111\u1ED9c",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 21,
+    "ten": "Kh\u00E1ng b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 0
+  },
+  {
+    "id": 22,
+    "ten": "Kh\u00E1ng \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 23,
+    "ten": "\u002B S\u1EE9c m\u1EA1nh",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 24,
+    "ten": "\u002B Kh\u00E9o l\u00E9o",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 25,
+    "ten": "\u002B Th\u1EC3 l\u1EF1c",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 26,
+    "ten": "\u002B Tinh th\u1EA7n",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 27,
+    "ten": "\u002B M\u00E1u",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 28,
+    "ten": "\u002B Mana",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 29,
+    "ten": "T\u1EF1 ph\u1EE5c h\u1ED3i m\u00E1u",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 30,
+    "ten": "T\u1EF1 ph\u1EE5c h\u1ED3i mana",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 31,
+    "ten": "Kh\u1EA3 n\u0103ng h\u00FAt m\u00E1u",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 32,
+    "ten": "Kh\u1EA3 n\u0103ng h\u00FAt mana",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 33,
+    "ten": "Ch\u00ED m\u1EA1ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 34,
+    "ten": "N\u00E9 \u0111\u00F2n",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 35,
+    "ten": "Ph\u1EA3n s\u00E1t th\u01B0\u01A1ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 36,
+    "ten": "Xuy\u00EAn gi\u00E1p",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 37,
+    "ten": "\u002B K\u1EF9 n\u0103ng t\u1EA5n c\u00F4ng",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 38,
+    "ten": "\u002B K\u1EF9 n\u0103ng ph\u00F2ng th\u1EE7",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 39,
+    "ten": "K\u1EF9 n\u0103ng \u0111\u1EB7c bi\u1EC7t",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 40,
+    "ten": "S.th\u01B0\u01A1ng c\u01A1 b\u1EA3n",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 41,
+    "ten": "T\u1EF7 l\u1EC7 xu\u1EA5t hi\u1EC7n n\u1ED9",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 42,
+    "ten": "Th\u1EDDi gian n\u1ED9",
+    "mau": 2,
+    "laPhanTram": 2
+  },
+  {
+    "id": 43,
+    "ten": "\u0110\u1EB7t tr\u1EE9ng v\u00E0o chu\u1ED3ng th\u00FA \u0111\u1EC3 \u1EA5p",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 44,
+    "ten": "H\u1ED3i mana",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 45,
+    "ten": "Ru ng\u1EE7",
+    "mau": 2,
+    "laPhanTram": 2
+  },
+  {
+    "id": 46,
+    "ten": "G\u00E2y cho\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 2
+  },
+  {
+    "id": 47,
+    "ten": "H\u1ED3i m\u00E1u",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 48,
+    "ten": "\u002B S\u00E1t th\u01B0\u01A1ng",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 49,
+    "ten": "\u002B Exp",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 50,
+    "ten": "\u002B T\u1ED1c \u0111\u1ED9",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 51,
+    "ten": "\u002B Exp th\u00EAm",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 52,
+    "ten": "\u002B V\u00E0ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 53,
+    "ten": "C\u01B0\u1EDBp",
+    "mau": 2,
+    "laPhanTram": 3
+  },
+  {
+    "id": 54,
+    "ten": "Hi\u1EC7p s\u0129",
+    "mau": 2,
+    "laPhanTram": 3
+  },
+  {
+    "id": 55,
+    "ten": "T.nh\u00E2n",
+    "mau": 2,
+    "laPhanTram": 3
+  },
+  {
+    "id": 56,
+    "ten": "X.hi\u1EC7n st b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 57,
+    "ten": "X.hi\u1EC7n st \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 58,
+    "ten": "L\u1ED7 1",
+    "mau": 2,
+    "laPhanTram": 4
+  },
+  {
+    "id": 59,
+    "ten": "L\u1ED7 2",
+    "mau": 2,
+    "laPhanTram": 4
+  },
+  {
+    "id": 60,
+    "ten": "L\u1ED7 3",
+    "mau": 2,
+    "laPhanTram": 4
+  },
+  {
+    "id": 61,
+    "ten": "Y\u1EC3m b\u00F9a",
+    "mau": 6,
+    "laPhanTram": 5
+  },
+  {
+    "id": 62,
+    "ten": "Kh\u00E1ng con ma",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 63,
+    "ten": "Bi\u1EBFn h\u00ECnh",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 64,
+    "ten": "\u002B St \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 65,
+    "ten": "\u002B St b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 66,
+    "ten": "\u0110\u00F3ng b\u0103ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 67,
+    "ten": "T\u00EA c\u00F3ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 68,
+    "ten": "Gia h\u1EA1n",
+    "mau": 2,
+    "laPhanTram": 4
+  },
+  {
+    "id": 69,
+    "ten": "Bi\u1EBFn d\u1EA1ng",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 70,
+    "ten": "Gi\u00E1 b\u00E1n",
+    "mau": 2,
+    "laPhanTram": 6
+  },
+  {
+    "id": 71,
+    "ten": "Effect",
+    "mau": 2,
+    "laPhanTram": 7
+  },
+  {
+    "id": 72,
+    "ten": "X.hi\u1EC7n crit b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 73,
+    "ten": "\u002B St crit b\u00F3ng t\u1ED1i",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 74,
+    "ten": "X.hi\u1EC7n crit \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 75,
+    "ten": "\u002B St crit \u00E1nh s\u00E1ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 76,
+    "ten": "X.hi\u1EC7n b\u1ECFng l\u1EEDa",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 77,
+    "ten": "-B\u1ECFng l\u1EEDa",
+    "mau": 6,
+    "laPhanTram": 2
+  },
+  {
+    "id": 78,
+    "ten": "X.hi\u1EC7n b\u1ECFng l\u1EA1nh",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 79,
+    "ten": "B\u1ECFng l\u1EA1nh",
+    "mau": 1,
+    "laPhanTram": 2
+  },
+  {
+    "id": 80,
+    "ten": "Gi\u00E1p h\u1EAFc \u00E1m",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 81,
+    "ten": "T\u00E0ng h\u00ECnh",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 82,
+    "ten": "X.hi\u1EC7n t\u00E0ng h\u00ECnh",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 83,
+    "ten": "X.hi\u1EC7n gi\u1EA3m cooldown",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 84,
+    "ten": "- Gi\u1EA3m cooldown",
+    "mau": 2,
+    "laPhanTram": 2
+  },
+  {
+    "id": 85,
+    "ten": "X.hi\u1EC7n khi\u00EAn ma thu\u1EADt",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 86,
+    "ten": "- Khi\u00EAn ma thu\u1EADt",
+    "mau": 3,
+    "laPhanTram": 2
+  },
+  {
+    "id": 87,
+    "ten": "X.hi\u1EC7n l\u00FA l\u1EABn",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 88,
+    "ten": "- L\u00FA l\u1EABn",
+    "mau": 3,
+    "laPhanTram": 2
+  },
+  {
+    "id": 89,
+    "ten": "Kh\u00E1ng t\u1EA5t c\u1EA3",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 90,
+    "ten": "Gi\u1EA3m st v\u1EADt l\u00FD",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 91,
+    "ten": "Gi\u1EA3m st b\u0103ng",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 92,
+    "ten": "Gi\u1EA3m st l\u1EEDa",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 93,
+    "ten": "Gi\u1EA3m st \u0111i\u1EC7n",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 94,
+    "ten": "Gi\u1EA3m st \u0111\u1ED9c",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 95,
+    "ten": "Gi\u1EA3m kh\u00E1ng t\u1EA5t c\u1EA3",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 96,
+    "ten": "S\u1ED1 d\u00F2ng \u1EA9n c\u00F3 th\u1EC3 c\u00F3",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 97,
+    "ten": "X.hi\u1EC7n v\u1EBFt th\u01B0\u01A1ng s\u00E2u",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 98,
+    "ten": "-V\u1EBFt th\u01B0\u01A1ng s\u00E2u",
+    "mau": 6,
+    "laPhanTram": 2
+  },
+  {
+    "id": 99,
+    "ten": "Ch\u00EDnh x\u00E1c",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 100,
+    "ten": "Tr\u1EDDi gi\u00E1ng",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 101,
+    "ten": "Kh\u00E1ng ph\u00E9p",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 102,
+    "ten": "H\u1EA5p th\u1EE5",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 103,
+    "ten": "H\u1ED3i ph\u1EE5c",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 104,
+    "ten": "- Hp \u00EDt h\u01A1n",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 105,
+    "ten": "- Hp h\u1ED3i",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 106,
+    "ten": "Cu\u1ED3ng phong",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 107,
+    "ten": "\u002BSt ch\u00ED m\u1EA1ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 108,
+    "ten": "Kh\u00F4ng gian",
+    "mau": 1,
+    "laPhanTram": 0
+  },
+  {
+    "id": 109,
+    "ten": "T\u00E1i sinh",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 110,
+    "ten": "Ph\u00E2n th\u00E2n",
+    "mau": 2,
+    "laPhanTram": 2
+  },
+  {
+    "id": 111,
+    "ten": "Quy\u1EC1n l\u1EF1c",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 112,
+    "ten": "\u0110i\u1EC3m l\u00F4i \u0111\u00E0i",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 113,
+    "ten": "St maxHp",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 114,
+    "ten": "T\u1ED5ng m\u1EE5c ti\u00EAu",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 115,
+    "ten": "vinh vien",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 116,
+    "ten": "Combo",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 117,
+    "ten": "H\u1ED9 v\u1EC7 b\u00F3ng t\u1ED1i",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 118,
+    "ten": "Thu\u1EADt chuy\u1EC3n \u0111\u1ED5i",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 119,
+    "ten": "Gi\u1EA3m n\u1ED9i t\u1EA1i",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 120,
+    "ten": "Thu\u1EADt h\u00F3a gi\u1EA3i",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 121,
+    "ten": "\u0110i\u1EC3m t\u1EB7ng ng\u1ECDc",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 122,
+    "ten": "Kh\u00F4ng t\u0103ng Exp",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 123,
+    "ten": "Th\u1EDDi gian t\u1EF1 \u0111\u00E1nh",
+    "mau": 4,
+    "laPhanTram": 2
+  },
+  {
+    "id": 124,
+    "ten": "D\u00F9ng \u0111\u1EC3 giao d\u1ECBch trang s\u1EE9c",
+    "mau": 1,
+    "laPhanTram": 5
+  },
+  {
+    "id": 125,
+    "ten": "D\u00F9ng \u0111\u1EC3 giao d\u1ECBch v\u0169 kh\u00ED",
+    "mau": 1,
+    "laPhanTram": 5
+  },
+  {
+    "id": 126,
+    "ten": "D\u00F9ng \u0111\u1EC3 giao d\u1ECBch trang ph\u1EE5c",
+    "mau": 1,
+    "laPhanTram": 5
+  },
+  {
+    "id": 127,
+    "ten": "D\u00F9ng \u0111\u1EC3 giao d\u1ECBch m\u1EC1 \u0111ay",
+    "mau": 1,
+    "laPhanTram": 5
+  },
+  {
+    "id": 128,
+    "ten": "S\u00E1t th\u01B0\u01A1ng chu\u1EA9n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 129,
+    "ten": "\u0110\u1ED9 b\u1EC1n",
+    "mau": 3,
+    "laPhanTram": 1
+  },
+  {
+    "id": 130,
+    "ten": "T\u1EC9 l\u1EC7 may m\u1EAFn",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 131,
+    "ten": "B\u1ED9c ph\u00E1",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 132,
+    "ten": "Ch\u1EDBp gi\u1EADt",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 133,
+    "ten": "Mi\u1EC5n st l\u1EEDa",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 134,
+    "ten": "Mi\u1EC5n st \u0111\u1ED9c",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 135,
+    "ten": "Mi\u1EC5n st v\u1EADt l\u00FD",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 136,
+    "ten": "Mi\u1EC5n st b\u0103ng",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 137,
+    "ten": "Mi\u1EC5n st \u0111i\u1EC7n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 138,
+    "ten": "H\u00FAt m\u00E1u sau 3 \u0111\u00F2n \u0111\u00E1nh",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 139,
+    "ten": "Hung t\u00E0n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 140,
+    "ten": "M\u00F9 m\u1EAFt",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 141,
+    "ten": "Thi\u00EAu ch\u00E1y trong 20s, cooldown",
+    "mau": 5,
+    "laPhanTram": 2
+  },
+  {
+    "id": 142,
+    "ten": "Gi\u00E1p b\u1EA3o h\u1ED9",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 143,
+    "ten": "B\u1ED9c ph\u00E1",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 144,
+    "ten": "Ch\u1EDBp gi\u1EADt",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 145,
+    "ten": "Mi\u1EC5n st l\u1EEDa",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 146,
+    "ten": "Mi\u1EC5n st \u0111\u1ED9c",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 147,
+    "ten": "Mi\u1EC5n st v\u1EADt l\u00FD",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 148,
+    "ten": "Mi\u1EC5n st b\u0103ng",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 149,
+    "ten": "Mi\u1EC5n st \u0111i\u1EC7n",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 150,
+    "ten": "H\u00FAt m\u00E1u",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 151,
+    "ten": "Hung t\u00E0n",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 152,
+    "ten": "M\u00F9 m\u1EAFt",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 153,
+    "ten": "Thi\u00EAu ch\u00E1y",
+    "mau": 8,
+    "laPhanTram": 2
+  },
+  {
+    "id": 154,
+    "ten": "Gi\u00E1p b\u1EA3o h\u1ED9",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 155,
+    "ten": "S\u00E1t th\u01B0\u01A1ng chu\u1EA9n",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 156,
+    "ten": "T\u1ED1 ch\u1EA5t",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 157,
+    "ten": "Nh\u00E2n qu\u00E0 khi s\u1EED d\u1EE5ng",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 158,
+    "ten": "Mua h\u00E0ng mi\u1EC5n ph\u00ED",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 159,
+    "ten": "Ch\u1ED1ng \u0111\u1ED3 s\u00E1t",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 160,
+    "ten": "L\u00F4i ph\u1EA1t",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 161,
+    "ten": "L\u1EEDa h\u1ECFa ng\u1EE5c",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 162,
+    "ten": "S\u1ED1 l\u1EA7n gia h\u1EA1n",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 163,
+    "ten": "Th\u1EDDi h\u1EA1n pet",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 164,
+    "ten": "T\u00E0n ph\u1EBF",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 165,
+    "ten": "T\u00E0n ph\u1EBF",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 166,
+    "ten": "Ngu \u0111\u1EA7n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 167,
+    "ten": "Ngu \u0111\u1EA7n",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 168,
+    "ten": "B\u1EA5t t\u1EED trong 5s, cooldown",
+    "mau": 5,
+    "laPhanTram": 2
+  },
+  {
+    "id": 169,
+    "ten": "B\u1EA5t t\u1EED trong 5s, cooldown",
+    "mau": 8,
+    "laPhanTram": 2
+  },
+  {
+    "id": 170,
+    "ten": "Ch\u00EDnh x\u00E1c",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 171,
+    "ten": "Gi\u00E1p b\u1EA1ch kim",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 172,
+    "ten": "Gi\u00E1p b\u1EA1ch kim",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 173,
+    "ten": "Gi\u00E1p thi\u00EAn s\u1EE9",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 174,
+    "ten": "Gi\u00E1p thi\u00EAn s\u1EE9",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 175,
+    "ten": "Gi\u00E1p v\u1EC7 binh",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 176,
+    "ten": "Gi\u00E1p v\u1EC7 binh",
+    "mau": 8,
+    "laPhanTram": 1
+  },
+  {
+    "id": 177,
+    "ten": "D\u00F9ng \u0111\u1EC3 giao d\u1ECBch \u0111\u1ED3 tinh t\u00FA m\u00E0u xanh l\u00E1",
+    "mau": 1,
+    "laPhanTram": 5
+  },
+  {
+    "id": 178,
+    "ten": "\u0110i\u1EC3m paragon",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 179,
+    "ten": "C\u1EA5p \u0111\u1ED9 paragon",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 180,
+    "ten": "Ch\u00F3ng m\u1EB7t",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 181,
+    "ten": "\u0110i\u1EC3m n\u1EA1p ng\u1ECDc",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 182,
+    "ten": "\u0110i\u1EC3m d\u00F9ng ng\u1ECDc",
+    "mau": 2,
+    "laPhanTram": 0
+  },
+  {
+    "id": 183,
+    "ten": "\u0110i\u1EC3m chi\u1EBFn c\u00F4ng",
+    "mau": 6,
+    "laPhanTram": 0
+  },
+  {
+    "id": 184,
+    "ten": "G\u1ECDi s\u00E9t",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 185,
+    "ten": "\u00C1p \u0111\u1EA3o",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 186,
+    "ten": "Gi\u00E1p c\u1ED1t",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 187,
+    "ten": "X.hi\u1EC7n qu\u00E0 noel",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 188,
+    "ten": "-Q\u00F9a noel",
+    "mau": 6,
+    "laPhanTram": 2
+  },
+  {
+    "id": 189,
+    "ten": "\u00C1o gi\u00E1p l\u1EEDa",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 190,
+    "ten": "B\u0103ng th\u01B0\u1EE3ng c\u1ED5",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 191,
+    "ten": "B\u0103ng th\u01B0\u1EE3ng c\u1ED5 v\u1EADt l\u00FD",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 192,
+    "ten": "L\u1EEDa h\u1ECFa tinh",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 193,
+    "ten": "L\u1EEDa h\u1ECFa tinh v\u1EADt l\u00FD",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 194,
+    "ten": "B\u00E3o \u0111i\u1EC7n t\u1EEB",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 195,
+    "ten": "B\u00E3o \u0111i\u1EC7n t\u1EEB v\u1EADt l\u00FD",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 196,
+    "ten": "\u0110\u1ED9c suy nh\u01B0\u1EE3c",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 197,
+    "ten": "\u0110\u1ED9c suy nh\u01B0\u1EE3c v\u1EADt l\u00FD",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 198,
+    "ten": "X.hi\u1EC7n \u0110\u1ED9c suy nh\u01B0\u1EE3c vl",
+    "mau": 0,
+    "laPhanTram": 1
+  },
+  {
+    "id": 199,
+    "ten": "X.hi\u1EC7n \u0110\u1ED9c suy nh\u01B0\u1EE3c",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 200,
+    "ten": "X.hi\u1EC7n B\u00E3o \u0111i\u1EC7n t\u1EEB vl",
+    "mau": 0,
+    "laPhanTram": 1
+  },
+  {
+    "id": 201,
+    "ten": "X.hi\u1EC7n B\u00E3o \u0111i\u1EC7n t\u1EEB",
+    "mau": 2,
+    "laPhanTram": 1
+  },
+  {
+    "id": 202,
+    "ten": "X.hi\u1EC7n L\u1EEDa h\u1ECFa tinh vl",
+    "mau": 0,
+    "laPhanTram": 1
+  },
+  {
+    "id": 203,
+    "ten": "X.hi\u1EC7n L\u1EEDa h\u1ECFa tinh",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 204,
+    "ten": "X.hi\u1EC7n B\u0103ng th\u01B0\u1EE3ng c\u1ED5 vl",
+    "mau": 0,
+    "laPhanTram": 1
+  },
+  {
+    "id": 205,
+    "ten": "X.hi\u1EC7n B\u0103ng th\u01B0\u1EE3ng c\u1ED5",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 206,
+    "ten": "- D\u00F9ng n\u00E2ng c\u1EA5p k\u0129 n\u0103ng",
+    "mau": 6,
+    "laPhanTram": 5
+  },
+  {
+    "id": 207,
+    "ten": "T\u0103ng ph\u1EA7n tr\u0103m s\u00E1t th\u01B0\u01A1ng trong m\u1ED9t kho\u1EA3ng th\u1EDDi gian ng\u1EAFn",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 208,
+    "ten": "Qu\u00E1ng Tuy\u1EBFt",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 209,
+    "ten": "N\u1ECDc \u0111\u1ED9c",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 210,
+    "ten": "X.hi\u1EC7n B\u1ECFng tuy\u1EBFt",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 211,
+    "ten": "B\u1ECFng tuy\u1EBFt",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 212,
+    "ten": "C\u1EA3i t\u1EA1o",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 213,
+    "ten": "C\u1EA3i t\u1EA1o v\u0129nh vi\u1EC5n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 214,
+    "ten": "H\u1EBFt h\u1EA1n c\u1EA3i t\u1EA1o",
+    "mau": 0,
+    "laPhanTram": 0
+  },
+  {
+    "id": 215,
+    "ten": "Mi\u1EC5n d\u1ECBch Pet y\u1EBFu",
+    "mau": 5,
+    "laPhanTram": 0
+  },
+  {
+    "id": 216,
+    "ten": "T\u0103ng h\u1ED3i HP/MP \u003C30%",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 217,
+    "ten": "T\u0103ng s\u00E1t th\u01B0\u01A1ng ch\u1EE7 nh\u00E2n",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 218,
+    "ten": "Kh\u00E1ng xuy\u00EAn gi\u00E1p",
+    "mau": 1,
+    "laPhanTram": 1
+  },
+  {
+    "id": 219,
+    "ten": "K\u00EDch ho\u1EA1t mi\u1EC5n 100% s\u00E1t th\u01B0\u01A1ng trong 5s (H\u1ED3i 50s).",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 220,
+    "ten": "L\u1EDDi nguy\u1EC1n \u0110\u1ED9c t\u1ED1",
+    "mau": 3,
+    "laPhanTram": 0
+  },
+  {
+    "id": 221,
+    "ten": "L\u1EDDi nguy\u1EC1n Suy ki\u1EC7t",
+    "mau": 3,
+    "laPhanTram": 0
+  },
+  {
+    "id": 222,
+    "ten": "Gi\u1EA3m kh\u00E1ng v\u1EADt l\u00FD",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 223,
+    "ten": "Gi\u1EA3m kh\u00E1ng h\u1ECFa",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 224,
+    "ten": "Gi\u1EA3m kh\u00E1ng b\u0103ng",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 225,
+    "ten": "Gi\u1EA3m kh\u00E1ng \u0111i\u1EC7n",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 226,
+    "ten": "Gi\u1EA3m kh\u00E1ng \u0111\u1ED9c",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 227,
+    "ten": "Xuy\u00EAn Kh\u00E1ng",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 228,
+    "ten": "Th\u1EDDi gian n\u1EDF",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 229,
+    "ten": "S\u1EE9c kh\u1ECFe",
+    "mau": 4,
+    "laPhanTram": 0
+  },
+  {
+    "id": 230,
+    "ten": "H\u1ED9 C\u00F4ng",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 231,
+    "ten": "H\u1ED9 Th\u1EE7",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 232,
+    "ten": "Ch\u00ED M\u1EA1ng",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 233,
+    "ten": "Cu\u1ED3ng n\u1ED9",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 234,
+    "ten": "X.hi\u1EC7n L\u1EEDa th\u01B0\u1EE3ng c\u1ED5",
+    "mau": 6,
+    "laPhanTram": 1
+  },
+  {
+    "id": 235,
+    "ten": "L\u1EEDa th\u01B0\u1EE3ng c\u1ED5",
+    "mau": 6,
+    "laPhanTram": 2
+  },
+  {
+    "id": 236,
+    "ten": "Chuy\u1EC3n h\u00F3a ST th\u00E0nh HP",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 237,
+    "ten": "Gi\u1EA3m s\u00E1t th\u01B0\u01A1ng ch\u00ED m\u1EA1ng",
+    "mau": 4,
+    "laPhanTram": 1
+  },
+  {
+    "id": 238,
+    "ten": "Tr\u00EAu gh\u1EB9o",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 239,
+    "ten": "N\u1ED9 Gi\u00E1p",
+    "mau": 5,
+    "laPhanTram": 1
+  },
+  {
+    "id": 240,
+    "ten": "\u0110\u1EB7t tr\u1EE9ng v\u00E0o chu\u1ED3ng th\u00FA \u0111\u1EC3 \u1EA5p",
+    "mau": 1,
+    "laPhanTram": 0
+  }
+]

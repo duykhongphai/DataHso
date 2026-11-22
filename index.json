@@ -1,0 +1,13 @@
+{
+  "servers": [
+    {
+      "ten": "Thiên Hà (Điện)",
+      "host": "hs7.teamobi.com",
+      "port": 19129,
+      "ngonNgu": 0,
+      "characterIndex": 0,
+      "updatedAt": "2026-11-22T14:06:48.5425097+00:00",
+      "id": "DuLieu"
+    }
+  ]
+}

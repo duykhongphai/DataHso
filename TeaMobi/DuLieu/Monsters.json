@@ -1,0 +1,1556 @@
+[
+  {
+    "id": 0,
+    "ten": "Smiley",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 1,
+    "ten": "\u1ED0c s\u00EAn",
+    "cap": 3,
+    "hp": 600,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 2,
+    "ten": "L\u1EEDa ma tr\u01A1i",
+    "cap": 5,
+    "hp": 800,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 3,
+    "ten": "Chu\u1ED9t hang \u0111\u1ED9ng",
+    "cap": 7,
+    "hp": 1200,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 4,
+    "ten": "N\u1EA5m \u1EA3o gi\u00E1c",
+    "cap": 9,
+    "hp": 1700,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 5,
+    "ten": "C\u00E2y Qu\u00E1i V\u1EADt",
+    "cap": 10,
+    "hp": 10200,
+    "kieuDiChuyen": 6
+  },
+  {
+    "id": 6,
+    "ten": "Ch\u00F3 \u0111i\u00EAn",
+    "cap": 11,
+    "hp": 2300,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 7,
+    "ten": "S\u00F3i x\u00E1m",
+    "cap": 13,
+    "hp": 3000,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 8,
+    "ten": "Chu\u1ED9t ba m\u1EAFt",
+    "cap": 15,
+    "hp": 3800,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 9,
+    "ten": "B\u1ECD s\u00E1t th\u1EE7",
+    "cap": 17,
+    "hp": 4800,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 10,
+    "ten": "S\u00EAn xanh",
+    "cap": 19,
+    "hp": 5900,
+    "kieuDiChuyen": 6
+  },
+  {
+    "id": 11,
+    "ten": "Ong Kh\u1ED5ng L\u1ED3",
+    "cap": 20,
+    "hp": 35400,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 12,
+    "ten": "M\u00E8o v\u00E0ng",
+    "cap": 21,
+    "hp": 7100,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 13,
+    "ten": "B\u1EA1ch tu\u1ED9c gai",
+    "cap": 23,
+    "hp": 8400,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 14,
+    "ten": "C\u00E1o xanh",
+    "cap": 25,
+    "hp": 9800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 15,
+    "ten": "Cua \u0111\u00E1",
+    "cap": 27,
+    "hp": 11400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 16,
+    "ten": "T\u00F4m qu\u1EF7",
+    "cap": 29,
+    "hp": 13100,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 17,
+    "ten": "Th\u1EE7y Qu\u00E1i",
+    "cap": 30,
+    "hp": 78600,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 18,
+    "ten": "Nh\u1EC7n \u0111\u1EA7m l\u1EA7y",
+    "cap": 31,
+    "hp": 14900,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 19,
+    "ten": "Qu\u1EA3 b\u00ED ma",
+    "cap": 33,
+    "hp": 16800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 20,
+    "ten": "B\u1ECD c\u1EA1p m\u00E1u",
+    "cap": 35,
+    "hp": 18800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 21,
+    "ten": "Giun qu\u00E1i th\u00FA",
+    "cap": 37,
+    "hp": 21000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 22,
+    "ten": "D\u01A1i hang \u0111\u1ED9ng",
+    "cap": 39,
+    "hp": 23300,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 23,
+    "ten": "S\u00F3i B\u1EA5t T\u1EED",
+    "cap": 40,
+    "hp": 139800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 24,
+    "ten": "con Ma",
+    "cap": 10,
+    "hp": 1900,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 25,
+    "ten": "Ru\u1ED3i h\u00FAt m\u00E1u",
+    "cap": 41,
+    "hp": 25700,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 26,
+    "ten": "Ma c\u00E2y",
+    "cap": 43,
+    "hp": 28200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 27,
+    "ten": "N\u01B0\u1EDBc \u0111\u1ED9c",
+    "cap": 44,
+    "hp": 29500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 28,
+    "ten": "C\u00E2y \u0103n th\u1ECBt",
+    "cap": 45,
+    "hp": 30800,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 29,
+    "ten": "Hoa x\u00FAc tu",
+    "cap": 46,
+    "hp": 32200,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 30,
+    "ten": "C\u1EA7u qu\u1EF7",
+    "cap": 47,
+    "hp": 33600,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 31,
+    "ten": "T\u1EAFc k\u00E8",
+    "cap": 48,
+    "hp": 35000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 32,
+    "ten": "Ong s\u00E1t th\u1EE7",
+    "cap": 49,
+    "hp": 36500,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 33,
+    "ten": "D\u01A1i m\u1EB7t ng\u01B0\u1EDDi",
+    "cap": 51,
+    "hp": 39500,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 34,
+    "ten": "Chi\u1EBFn binh ma",
+    "cap": 53,
+    "hp": 42600,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 35,
+    "ten": "V\u1EC7 s\u0129 h\u1EAFc \u00E1m",
+    "cap": 54,
+    "hp": 44200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 36,
+    "ten": "K\u1EBB gi\u1EEF m\u1ED9",
+    "cap": 55,
+    "hp": 45800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 37,
+    "ten": "Ma b\u1EA5t t\u1EED",
+    "cap": 56,
+    "hp": 47500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 38,
+    "ten": "Th\u1EA7y ph\u00F9 th\u1EE7y",
+    "cap": 57,
+    "hp": 49200,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 39,
+    "ten": "X\u00E1c \u01B0\u1EDBp",
+    "cap": 58,
+    "hp": 50900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 40,
+    "ten": "T\u1EED th\u1EA7n",
+    "cap": 59,
+    "hp": 52700,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 41,
+    "ten": "Nh\u1EC7n v\u00E0ng",
+    "cap": 61,
+    "hp": 56300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 42,
+    "ten": "Ma ng\u1EE5y trang",
+    "cap": 62,
+    "hp": 58100,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 43,
+    "ten": "B\u1ED9 x\u01B0\u01A1ng kh\u00F4",
+    "cap": 63,
+    "hp": 60000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 44,
+    "ten": "S\u01B0 t\u1EED sa m\u1EA1c",
+    "cap": 64,
+    "hp": 61900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 45,
+    "ten": "\u1ED0c s\u00EAn c\u00E1t",
+    "cap": 65,
+    "hp": 63800,
+    "kieuDiChuyen": 4
+  },
+  {
+    "id": 46,
+    "ten": "Th\u1EB1n l\u1EB1n \u0111\u1ECF",
+    "cap": 66,
+    "hp": 65800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 47,
+    "ten": "B\u00F2 c\u1EA1p v\u00E0ng",
+    "cap": 67,
+    "hp": 67800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 48,
+    "ten": "Qu\u00E1i v\u1EADt gi\u00E1p gai",
+    "cap": 68,
+    "hp": 69800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 49,
+    "ten": "Ng\u01B0\u1EDDi \u0111\u00E1",
+    "cap": 69,
+    "hp": 71900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 50,
+    "ten": "Qu\u1EF7 nh\u00E3n",
+    "cap": 70,
+    "hp": 73900,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 51,
+    "ten": "Guardian",
+    "cap": 50,
+    "hp": 219000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 52,
+    "ten": "X\u00E1c \u01B0\u1EDBp ng\u00E0n n\u0103m",
+    "cap": 60,
+    "hp": 316200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 53,
+    "ten": "Qu\u00E1i v\u1EADt \u0111\u1EA7u b\u00F2",
+    "cap": 70,
+    "hp": 443400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 54,
+    "ten": "L\u00EDnh h\u1EAFc \u00E1m",
+    "cap": 71,
+    "hp": 76100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 55,
+    "ten": "S\u00F3c gai",
+    "cap": 72,
+    "hp": 78200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 56,
+    "ten": "\u0110ao ph\u1EE7",
+    "cap": 73,
+    "hp": 80400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 57,
+    "ten": "T\u1EAFc k\u00E8 bay",
+    "cap": 74,
+    "hp": 82600,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 58,
+    "ten": "N\u1EA5m d\u1EA1 xoa",
+    "cap": 75,
+    "hp": 84800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 59,
+    "ten": "Th\u1ECF n\u00FAi",
+    "cap": 76,
+    "hp": 87100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 60,
+    "ten": "Kh\u1EC9 \u0103n th\u1ECBt",
+    "cap": 77,
+    "hp": 89400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 61,
+    "ten": "R\u1ED3ng bay",
+    "cap": 78,
+    "hp": 91700,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 62,
+    "ten": "D\u01A1i ch\u00FAa",
+    "cap": 79,
+    "hp": 94100,
+    "kieuDiChuyen": 10
+  },
+  {
+    "id": 63,
+    "ten": "N\u1EA5m cao nguy\u00EAn",
+    "cap": 80,
+    "hp": 96400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 64,
+    "ten": "M\u1ECF t\u00E0i nguy\u00EAn",
+    "cap": 80,
+    "hp": 500000,
+    "kieuDiChuyen": 7
+  },
+  {
+    "id": 65,
+    "ten": "B\u1EA3o v\u1EC7 m\u1ECF",
+    "cap": 80,
+    "hp": 1,
+    "kieuDiChuyen": 11
+  },
+  {
+    "id": 66,
+    "ten": "Ma s\u00ECnh l\u1EA7y",
+    "cap": 81,
+    "hp": 148100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 67,
+    "ten": "S\u00F3c nhanh nh\u1EB9n",
+    "cap": 82,
+    "hp": 151700,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 68,
+    "ten": "Th\u1EB1n l\u1EB1n bay",
+    "cap": 83,
+    "hp": 155500,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 69,
+    "ten": "N\u1EA5m u s\u1EA7u",
+    "cap": 84,
+    "hp": 159200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 70,
+    "ten": "Qu\u1EF7 m\u1ECDc c\u00E1nh",
+    "cap": 85,
+    "hp": 163000,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 71,
+    "ten": "Chu\u1ED9t \u0111i\u00EAn",
+    "cap": 86,
+    "hp": 166900,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 72,
+    "ten": "R\u00F9a mai th\u00E9p",
+    "cap": 87,
+    "hp": 170800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 73,
+    "ten": "Chi\u1EBFn binh n\u1ED5i lo\u1EA1n",
+    "cap": 88,
+    "hp": 174700,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 74,
+    "ten": "S\u00EAn th\u00E2y ma",
+    "cap": 89,
+    "hp": 178700,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 75,
+    "ten": "Th\u1ED5 d\u00E2n \u0111\u1EA7u b\u00F2",
+    "cap": 90,
+    "hp": 182700,
+    "kieuDiChuyen": 2
+  },
+  {
+    "id": 76,
+    "ten": "Smiley Ch\u00FAa",
+    "cap": 91,
+    "hp": 182700,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 77,
+    "ten": "B\u1ECD Ch\u00FAa",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 78,
+    "ten": "B\u1ECD Phi Ti\u00EAu",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 79,
+    "ten": "Nh\u1EC7n Ch\u00FAa",
+    "cap": 90,
+    "hp": 316200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 80,
+    "ten": "Ph\u00F9 Th\u1EE7y Qu\u1EA1",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 81,
+    "ten": "Nh\u1EC7n N\u1ED5",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 82,
+    "ten": "Qu\u1EF7 Nham Th\u1EA1ch",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 83,
+    "ten": "D\u00EA B\u1EA1c",
+    "cap": 90,
+    "hp": 1048200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 84,
+    "ten": "D\u00EA V\u00E0ng",
+    "cap": 90,
+    "hp": 1048200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 85,
+    "ten": "Th\u1ECF bay",
+    "cap": 91,
+    "hp": 186800,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 86,
+    "ten": "Ma c\u00E2y m\u1EADp",
+    "cap": 92,
+    "hp": 190900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 87,
+    "ten": "Nh\u00E2n s\u00E2m",
+    "cap": 93,
+    "hp": 195100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 88,
+    "ten": "\u0110\u1EA7u l\u00E2u tr\u1EAFng",
+    "cap": 94,
+    "hp": 199300,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 89,
+    "ten": "Nh\u00E0 s\u00E9t",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 12
+  },
+  {
+    "id": 90,
+    "ten": "Nh\u00E0 gi\u00F3",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 12
+  },
+  {
+    "id": 91,
+    "ten": "Nh\u00E0 \u00E1nh s\u00E1ng",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 12
+  },
+  {
+    "id": 92,
+    "ten": "Nh\u00E0 l\u1EEDa",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 12
+  },
+  {
+    "id": 93,
+    "ten": "Hi\u1EC7p s\u1EF9 x\u01B0\u01A1ng tr\u1EAFng",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 94,
+    "ten": "R\u1EAFn l\u01B0ng g\u00F9",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 95,
+    "ten": "Th\u1EB1n l\u1EB1n m\u1EADp",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 96,
+    "ten": "Th\u1EA7n ch\u1EBFt",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 97,
+    "ten": "S\u00F3i \u0111\u00F4",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 98,
+    "ten": "R\u1ED3ng b\u1EE5ng b\u1EF1",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 99,
+    "ten": "Thi\u1EBFt chu\u1EF3 h\u1ED9 v\u1EC7",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 100,
+    "ten": "Thi\u1EBFt k\u00EDch h\u1ED9 v\u1EC7",
+    "cap": 1,
+    "hp": 500,
+    "kieuDiChuyen": 1
+  },
+  {
+    "id": 101,
+    "ten": "X\u00E0 n\u1EEF",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 102,
+    "ten": "Heo",
+    "cap": 1,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 103,
+    "ten": "B\u1ECD c\u1EA1p ch\u00FAa",
+    "cap": 20,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 104,
+    "ten": "Qu\u1EF7 m\u1ED9t m\u1EAFt",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 105,
+    "ten": "Qu\u1EF7 \u0111\u1EA7u b\u00F2",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 106,
+    "ten": "K\u1EF5 s\u0129 \u0111\u1ECBa ng\u1EE5c",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 107,
+    "ten": "Qu\u1EF7 \u0111\u1ECBa ng\u1EE5c",
+    "cap": 94,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 108,
+    "ten": "Ph\u00E1p s\u01B0 \u0111\u1ECBa ng\u1EE5c",
+    "cap": 94,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 109,
+    "ten": "Th\u00F9ng g\u1ED7",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 110,
+    "ten": "L\u1EEDa thi\u00EAng",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 111,
+    "ten": "ki\u1EBFn c\u00E0ng",
+    "cap": 95,
+    "hp": 203500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 112,
+    "ten": "Ru\u1ED3i",
+    "cap": 96,
+    "hp": 207800,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 113,
+    "ten": "Skelonton",
+    "cap": 97,
+    "hp": 212200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 114,
+    "ten": "G\u00E0 l\u1EEDa",
+    "cap": 98,
+    "hp": 216500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 115,
+    "ten": "Chu\u1ED9t xanh",
+    "cap": 99,
+    "hp": 221000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 116,
+    "ten": "Heo t\u00EDm",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 117,
+    "ten": "Medusa",
+    "cap": 101,
+    "hp": 230000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 118,
+    "ten": "Chimera",
+    "cap": 102,
+    "hp": 234500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 119,
+    "ten": "C\u00E2y ma",
+    "cap": 103,
+    "hp": 239200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 120,
+    "ten": "Nh\u1EC7n \u0111\u1ECF",
+    "cap": 104,
+    "hp": 243800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 121,
+    "ten": "X\u01B0\u01A1ng xanh",
+    "cap": 105,
+    "hp": 248500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 122,
+    "ten": "Th\u1ECF tai d\u00E0i",
+    "cap": 106,
+    "hp": 253300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 123,
+    "ten": "Hoa \u0111\u1EA7u \u0111\u1ECF",
+    "cap": 107,
+    "hp": 258100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 124,
+    "ten": "D\u01A1i m\u1EAFt l\u1ED3i",
+    "cap": 109,
+    "hp": 262900,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 125,
+    "ten": "Cua \u0111\u1ECF",
+    "cap": 110,
+    "hp": 267800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 126,
+    "ten": "M\u00E8o m\u1ED9t m\u1EAFt",
+    "cap": 111,
+    "hp": 272700,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 127,
+    "ten": "L\u1EEBa",
+    "cap": 40,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 128,
+    "ten": "L\u1EEBa \u0111en",
+    "cap": 40,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 129,
+    "ten": "L\u1EA1c \u0111\u00E0",
+    "cap": 61,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 130,
+    "ten": "L\u1EA1c \u0111\u00E0 n\u00E2u",
+    "cap": 61,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 131,
+    "ten": "B\u00F2 v\u00E0ng",
+    "cap": 81,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 132,
+    "ten": "B\u00F2 n\u00E2u",
+    "cap": 81,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 133,
+    "ten": "X\u00E1c \u01B0\u1EDBp",
+    "cap": 100,
+    "hp": 100000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 134,
+    "ten": "Zoombie",
+    "cap": 89,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 135,
+    "ten": "Nguoi tuyet",
+    "cap": 89,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 136,
+    "ten": "Kh\u1EC9 \u0111\u1ED9t",
+    "cap": 100,
+    "hp": 100000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 137,
+    "ten": "B\u1ECD c\u1EA1p x\u00E1m",
+    "cap": 112,
+    "hp": 277600,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 138,
+    "ten": "Chu\u1ED9t hang",
+    "cap": 113,
+    "hp": 282700,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 139,
+    "ten": "Qu\u1EF7 m\u1EB7t x\u1EC7",
+    "cap": 114,
+    "hp": 292800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 140,
+    "ten": "Qu\u1EF7 n\u00E2u",
+    "cap": 115,
+    "hp": 302900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 141,
+    "ten": "L\u00EDnh x\u01B0\u01A1ng tr\u1EAFng",
+    "cap": 116,
+    "hp": 322100,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 142,
+    "ten": "Nh\u00E2n s\u01B0",
+    "cap": 117,
+    "hp": 332300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 143,
+    "ten": "Ma m\u1EAFt \u0111\u1ECF",
+    "cap": 118,
+    "hp": 352500,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 144,
+    "ten": "B\u00F2 \u0111i\u00EAn",
+    "cap": 119,
+    "hp": 362700,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 145,
+    "ten": "Qu\u1EF7 gi\u00E1p",
+    "cap": 120,
+    "hp": 372900,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 146,
+    "ten": "M\u1EF1c ma",
+    "cap": 121,
+    "hp": 382200,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 147,
+    "ten": "D\u1EBF ma",
+    "cap": 122,
+    "hp": 402400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 148,
+    "ten": "X\u01B0\u01A1ng ma",
+    "cap": 123,
+    "hp": 412600,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 149,
+    "ten": "Nh\u1EC7n ch\u00FAa",
+    "cap": 124,
+    "hp": 272800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 150,
+    "ten": "M\u1EF5 n\u01B0\u01A1ng",
+    "cap": 40,
+    "hp": 1,
+    "kieuDiChuyen": 15
+  },
+  {
+    "id": 151,
+    "ten": "Tr\u1EE5 ph\u1EE5",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 18
+  },
+  {
+    "id": 152,
+    "ten": "Tr\u1EE5 ch\u00EDnh",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 18
+  },
+  {
+    "id": 153,
+    "ten": "C\u1ED5ng th\u00E0nh",
+    "cap": 1,
+    "hp": 1000,
+    "kieuDiChuyen": 16
+  },
+  {
+    "id": 154,
+    "ten": "L\u00EDnh g\u00E1c th\u00E0nh",
+    "cap": 100,
+    "hp": 1000,
+    "kieuDiChuyen": 17
+  },
+  {
+    "id": 155,
+    "ten": "Giant Skeleton",
+    "cap": 124,
+    "hp": 272800,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 156,
+    "ten": "Ice Golem",
+    "cap": 124,
+    "hp": 544567,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 157,
+    "ten": "Griffin",
+    "cap": 125,
+    "hp": 435653,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 158,
+    "ten": "Y\u00EAu tinh tuy\u1EBFt",
+    "cap": 126,
+    "hp": 476553,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 159,
+    "ten": "Chim c\u00E1nh c\u1EE5t ma",
+    "cap": 127,
+    "hp": 500380,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 160,
+    "ten": "K\u1EF9 s\u0129 b\u0103ng",
+    "cap": 128,
+    "hp": 525399,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 161,
+    "ten": "B\u0103ng ma tr\u01A1i",
+    "cap": 129,
+    "hp": 551688,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 162,
+    "ten": "Qu\u1EF7 tuy\u1EBFt \u0111\u1EA7u b\u00F2",
+    "cap": 130,
+    "hp": 579525,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 163,
+    "ten": "B\u00E1o b\u0103ng",
+    "cap": 131,
+    "hp": 608215,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 164,
+    "ten": "Qu\u1EF7 tuy\u1EBFt m\u1ED9t m\u1EAFt",
+    "cap": 132,
+    "hp": 638625,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 165,
+    "ten": "M\u00E8o tuy\u1EBFt",
+    "cap": 133,
+    "hp": 670557,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 166,
+    "ten": "D\u00E3 nh\u00E2n",
+    "cap": 134,
+    "hp": 704084,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 167,
+    "ten": "L\u1EE5c b\u1EA3o",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 168,
+    "ten": "Sinh m\u1EC7nh",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 169,
+    "ten": "Phong ma",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 170,
+    "ten": "Kh\u1EA3i ho\u00E0n",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 171,
+    "ten": "T\u00E2m linh",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 172,
+    "ten": "H\u1ED7n nguy\u00EAn",
+    "cap": 1,
+    "hp": 10,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 173,
+    "ten": "Th\u1ECF tr\u1EAFng",
+    "cap": 89,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 174,
+    "ten": "Ch\u00F3 ba \u0111\u1EA7u",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 175,
+    "ten": "\u0110\u1EE9a b\u00E9",
+    "cap": 60,
+    "hp": 1,
+    "kieuDiChuyen": 15
+  },
+  {
+    "id": 176,
+    "ten": "Voi n\u00E2u",
+    "cap": 60,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 177,
+    "ten": "Voi v\u00E0ng",
+    "cap": 60,
+    "hp": 1,
+    "kieuDiChuyen": 14
+  },
+  {
+    "id": 178,
+    "ten": "Anubis",
+    "cap": 100,
+    "hp": 999999,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 179,
+    "ten": "Ng\u1ECDc 1 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 180,
+    "ten": "Ng\u1ECDc 2 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 181,
+    "ten": "Ng\u1ECDc 3 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 182,
+    "ten": "Ng\u1ECDc 4 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 183,
+    "ten": "Ng\u1ECDc 5 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 184,
+    "ten": "Ng\u1ECDc 6 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 185,
+    "ten": "Ng\u1ECDc 7 sao",
+    "cap": 1,
+    "hp": 1,
+    "kieuDiChuyen": 13
+  },
+  {
+    "id": 186,
+    "ten": "Ng\u01B0\u1EDDi tuy\u1EBFt nh\u1ECF",
+    "cap": 94,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 187,
+    "ten": "L\u00EDnh r\u00ECu nh\u1ECF",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 188,
+    "ten": "L\u00E3o tr\u1ECDc",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 189,
+    "ten": "Ph\u00F9 th\u1EE7y m\u1EADp",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 190,
+    "ten": "Ki\u1EBFm s\u1EF9",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 191,
+    "ten": "\u0110\u1EA5u s\u1EF9 nh\u1ECF",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 192,
+    "ten": "B\u00F3ng ma t\u00EDm",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 193,
+    "ten": "Th\u1EE3 s\u0103n",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 194,
+    "ten": "L\u00EDnh s\u00FAng c\u1ED1i",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 195,
+    "ten": "Godzilla",
+    "cap": 89,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 196,
+    "ten": "King kong",
+    "cap": 90,
+    "hp": 10000,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 197,
+    "ten": "G\u00E0 tr\u1ED1ng",
+    "cap": 89,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 198,
+    "ten": "Ch\u00F3 \u0111\u00E1",
+    "cap": 125,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 199,
+    "ten": "Kh\u00F3i ma",
+    "cap": 120,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 200,
+    "ten": "N\u1EA5m xanh",
+    "cap": 105,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 201,
+    "ten": "B\u00ED xanh",
+    "cap": 135,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 202,
+    "ten": "Qu\u1EF7 c\u00F2i",
+    "cap": 110,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 203,
+    "ten": "G\u1ED1c c\u00E2y",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 204,
+    "ten": "Th\u1ECF \u0111\u00E1",
+    "cap": 135,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 205,
+    "ten": "Ma t\u00EDm",
+    "cap": 110,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 206,
+    "ten": "Ng\u01B0\u1EDDi \u0111\u00E1 x\u00E1m",
+    "cap": 120,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 207,
+    "ten": "Ph\u00F9 th\u1EE7y ma",
+    "cap": 115,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 208,
+    "ten": "C\u1EE7 c\u1EA3i",
+    "cap": 130,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 209,
+    "ten": "C\u1EA7y h\u01B0\u01A1ng",
+    "cap": 115,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 210,
+    "ten": "Qu\u1EF7 hoa",
+    "cap": 130,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 211,
+    "ten": "Kh\u1EC9 hoang",
+    "cap": 130,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 212,
+    "ten": "B\u1ECD hung \u0111\u00E1",
+    "cap": 135,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 213,
+    "ten": "Cua b\u1EA1c",
+    "cap": 100,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 214,
+    "ten": "D\u01A1i h\u1ECFa ng\u1EE5c",
+    "cap": 105,
+    "hp": 225400,
+    "kieuDiChuyen": 3
+  },
+  {
+    "id": 215,
+    "ten": "\u1EBEch xanh",
+    "cap": 125,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 216,
+    "ten": "Hoa c\u00E0 t\u01B0ng",
+    "cap": 120,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 217,
+    "ten": "Hoa ng\u1EE7 g\u1EADt",
+    "cap": 125,
+    "hp": 225400,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 218,
+    "ten": "M\u00E8o m\u1EADp",
+    "cap": 89,
+    "hp": 199300,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 219,
+    "ten": "R\u1EAFn V\u00E0ng",
+    "cap": 90,
+    "hp": 1048200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 220,
+    "ten": "R\u1EAFn B\u1EA1c",
+    "cap": 90,
+    "hp": 1048200,
+    "kieuDiChuyen": 0
+  },
+  {
+    "id": 221,
+    "ten": "Slime \u0110\u1ED9c",
+    "cap": 90,
+    "hp": 1048200,
+    "kieuDiChuyen": 0
+  }
+]

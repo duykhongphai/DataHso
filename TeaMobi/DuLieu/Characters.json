@@ -1,0 +1,25 @@
+[
+  {
+    "id": 646138,
+    "ten": "0oduyo0",
+    "dau": 0,
+    "toc": 3,
+    "mat": 11,
+    "dangMac": [
+      {
+        "viTri": 0,
+        "mau": 3
+      },
+      {
+        "viTri": 1,
+        "mau": 3
+      },
+      {
+        "viTri": 8,
+        "mau": 0
+      }
+    ],
+    "cap": 1,
+    "lop": 3
+  }
+]

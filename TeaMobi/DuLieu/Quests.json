@@ -1,0 +1,195 @@
+[
+  {
+    "trangThai": 0,
+    "id": 0,
+    "chinh": true,
+    "ten": "Kh\u1EDFi H\u00E0nh",
+    "loaiMucTieu": -1,
+    "npcGiao": -16,
+    "npcTra": 2,
+    "loiThoai": "1 Con \u0111\u00E3 chu\u1EA9n b\u1ECB s\u1EB5n s\u00E0ng cho chuy\u1EBFn \u0111i ch\u01B0a?\u003E1 Nghe n\u00F3i c\u00E1c V\u01B0\u01A1ng qu\u1ED1c l\u1EDBn \u0111ang t\u00ECm ki\u1EBFm nh\u1EEFng chi\u1EBFn binh t\u00E0i n\u0103ng t\u1EEB kh\u1EAFp m\u1ECDi n\u01A1i, c\u00E1c h\u1ED9i hi\u1EC7p s\u0129 c\u0169ng xu\u1EA5t hi\u1EC7n ng\u00E0y c\u00E0ng nhi\u1EC1u. \u003E1 Ta lu\u00F4n hy v\u1ECDng sau n\u00E0y con s\u1EBD tr\u1EDF th\u00E0nh m\u1ED9t hi\u1EC7p s\u0129 m\u00E0 ai c\u0169ng bi\u1EBFt \u0111\u1EBFn.\u003E1 T\u1EEB b\u00E2y gi\u1EDD con h\u00E3y \u0111i \u0111\u1EBFn L\u00E0ng S\u00F3i, \u0111\u00F3 l\u00E0 n\u01A1i th\u00EDch h\u1EE3p nh\u1EA5t \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u cu\u1ED9c s\u1ED1ng m\u1EDBi. \u0110\u1EBFn t\u00ECm tr\u01B0\u1EDFng l\u00E0ng v\u00E0 n\u00F3i chuy\u1EC7n v\u1EDBi \u00F4ng \u1EA5y \u0111\u1EC3 t\u00ECm m\u1ED9t c\u00F4ng vi\u1EC7c n\u00E0o \u0111\u00F3.\u003E1 L\u00EAn \u0111\u01B0\u1EDDng b\u00ECnh an nh\u00E9, m\u1EB9 s\u1EBD lu\u00F4n c\u1EA7u nguy\u1EC7n cho con. L\u00E2u l\u00E2u nh\u1EDB v\u1EC1 th\u0103m nh\u00E0 \u0111\u1EA5y!",
+    "tomTat": "",
+    "huongDan": "H\u00E3y \u0111i v\u1EC1 h\u01B0\u1EDBng \u0110\u00F4ng \u0111\u1EC3 \u0111\u1EBFn l\u00E0ng S\u00F3i - n\u01A1i kh\u1EDFi \u0111\u1EA7u c\u1EE7a chuy\u1EBFn phi\u00EAu l\u01B0u.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 19,
+    "chinh": false,
+    "ten": "B\u00F3ng ma trong h\u1EA7m m\u1ED9",
+    "loaiMucTieu": -1,
+    "npcGiao": -28,
+    "npcTra": 1,
+    "loiThoai": "1 N\u00E0y, c\u00F3 ph\u1EA3i mi \u0111ang chu\u1EA9n b\u1ECB xu\u1ED1ng d\u01B0\u1EDBi h\u1EA7m m\u1ED9 t\u00ECm v\u00E0ng kh\u00F4ng?\u003E1 \u0110\u00E3 t\u1EEB r\u1EA5t l\u00E2u, m\u1ECDi ng\u01B0\u1EDDi \u0111\u1ED3n \u0111\u1EA1i v\u1EC1 m\u1ED9t lo\u00E0i y\u00EAu ma th\u01B0\u1EDDng xu\u1EA5t hi\u1EC7n v\u00E0 bay l\u01B0\u1EE3n l\u1EDD trong h\u1EA7m m\u1ED9. C\u00F3 ng\u01B0\u1EDDi n\u00F3i h\u00ECnh d\u00E1ng c\u1EE7a ch\u00FAng tr\u00F4ng gi\u1ED1ng nh\u01B0 m\u1ED9t lo\u00E0i d\u01A1i \u0103n th\u1ECBt mang g\u01B0\u01A1ng m\u1EB7t con ng\u01B0\u1EDDi.\u003E1 Ta th\u01B0\u1EDDng hay k\u1EC3 chuy\u1EC7n ma cho L\u0169 tr\u1EBB trong th\u00E0nh ph\u1ED1 nghe v\u00E0 ch\u00FAng r\u1EA5t th\u00EDch th\u00FA v\u1EDBi c\u00E2u chuy\u1EC7n n\u00E0y. Ch\u00FAng mu\u1ED1n bi\u1EBFt l\u0169 ma b\u00EAn d\u01B0\u1EDBi th\u1EF1c s\u1EF1 tr\u00F4ng nh\u01B0 th\u1EBF n\u00E0o.\u003E1 H\u00EC h\u00EC, ti\u1EBFc l\u00E0 ta c\u0169ng kh\u00F4ng d\u00E1m m\u00F2 xu\u1ED1ng d\u01B0\u1EDBi h\u1EA7m m\u1ED9 n\u00EAn phi\u1EC1n mi h\u00E3y \u0111i t\u00ECm nh\u1EEFng con d\u01A1i m\u1EB7t ng\u01B0\u1EDDi \u0111\u00F3 nh\u00E9. Ta s\u1EBD tr\u1EA3 c\u00F4ng cho mi n\u1EBFu s\u0103n \u0111\u01B0\u1EE3c v\u00E0i con cho ta nh\u00ECn th\u1EA5y.",
+    "tomTat": "",
+    "huongDan": "\u0110i xu\u1ED1ng h\u1EA7m m\u1ED9 v\u00E0 s\u0103n 100 con D\u01A1i M\u1EB7t Ng\u01B0\u1EDDi. Sau \u0111\u00F3 tr\u1EDF l\u1EA1i n\u00F3i chuy\u1EC7n v\u1EDBi l\u00EDnh g\u00E1c tr\u01B0\u1EDBc c\u1EEDa h\u1EA7m.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1200,
+    "chinh": false,
+    "ten": "NV h\u00E0ng ng\u00E0y: t\u00ECm d\u01B0\u1EE3c th\u1EA3o",
+    "loaiMucTieu": -1,
+    "npcGiao": -8,
+    "npcTra": 0,
+    "loiThoai": "1 Lisa v\u00E0 Emma \u0111ang c\u1EA7n t\u00ECm d\u01B0\u1EE3c th\u1EA3o \u0111\u1EC3 b\u00E0o ch\u1EBF th\u00EAm thu\u1ED1c. Anh c\u00F3 mu\u1ED1n nh\u1EADn c\u00F4ng vi\u1EC7c n\u00E0y gi\u00FAp h\u1ECD kh\u00F4ng?\u003E1 H\u00E3y \u0111\u1EBFn Thung L\u0169ng \u0110\u00E1 s\u0103n Ong s\u00E1t th\u1EE7 \u0111\u1EC3 thu th\u1EADp l\u00E1 d\u01B0\u1EE3c th\u1EA3o mang v\u1EC1 \u0111\u00E2y nh\u00E9.",
+    "tomTat": "",
+    "huongDan": "\u0110\u1EBFn Thung L\u0169ng \u0110\u00E1 s\u0103n Ong s\u00E1t th\u1EE7 l\u1EA5y 50 l\u00E1 d\u01B0\u1EE3c th\u1EA3o. Sau \u0111\u00F3 \u0111em ch\u00FAng v\u1EC1 cho Zulu.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1201,
+    "chinh": false,
+    "ten": "NV h\u00E0ng ng\u00E0y: t\u00ECm da th\u00FA",
+    "loaiMucTieu": -1,
+    "npcGiao": -8,
+    "npcTra": 0,
+    "loiThoai": "1 H\u00F4m nay c\u00F3 v\u00E0i l\u00E1i bu\u00F4n mu\u1ED1n mua nh\u1EEFng b\u1ED9 da thu th\u1EADp t\u1EEB Ong s\u00E1t th\u1EE7.\u003E1 C\u1EADu c\u00F3 mu\u1ED1n nh\u1EADn c\u00F4ng vi\u1EC7c n\u00E0y kh\u00F4ng?",
+    "tomTat": "",
+    "huongDan": "\u0110\u1EBFn Thung L\u0169ng \u0110\u00E1 s\u0103n Ong s\u00E1t th\u1EE7 l\u1EA5y 50 da th\u00FA. Sau \u0111\u00F3 mang ch\u00FAng v\u1EC1 cho Zulu.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1202,
+    "chinh": false,
+    "ten": "NV h\u00E0ng ng\u00E0y: \u0111i s\u0103n qu\u00E1i v\u1EADt",
+    "loaiMucTieu": -1,
+    "npcGiao": -8,
+    "npcTra": 1,
+    "loiThoai": "1 C\u00F3 c\u00F4ng vi\u1EC7c m\u1EDBi cho anh \u0111\u00E2y, t\u00F4i \u0111ang nghi\u00EAn c\u1EE9u v\u1EC1 c\u00E1c lo\u00E0i qu\u00E1i th\u00FA \u1EDF Thung L\u0169ng \u0110\u00E1, h\u00E3y \u0111i s\u0103n Ong s\u00E1t th\u1EE7 v\u00E0 xem h\u00E0nh vi c\u1EE7a ch\u00FAng nh\u01B0 th\u1EBF n\u00E0o.\u003E1 Anh c\u00F3 mu\u1ED1n gi\u00FAp t\u00F4i vi\u1EC7c n\u00E0y kh\u00F4ng?",
+    "tomTat": "",
+    "huongDan": "\u0110\u1EBFn Thung L\u0169ng \u0110\u00E1 s\u0103n 100 Ong s\u00E1t th\u1EE7 r\u1ED3i tr\u1EDF v\u1EC1 b\u00E1o cho Zulu bi\u1EBFt.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1613,
+    "chinh": false,
+    "ten": "NVTT: L\u00E0m gi\u00E0u",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 18,
+    "loiThoai": "1 Ho\u00E0n th\u00E0nh chuy\u1EBFn bu\u00F4n h\u00E0ng 1 l\u1EA7n",
+    "tomTat": "",
+    "huongDan": "Ho\u00E0n th\u00E0nh chuy\u1EBFn bu\u00F4n h\u00E0ng 1 l\u1EA7n",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1625,
+    "chinh": false,
+    "ten": "NVTT: L\u00F4i \u0111\u00E0i",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 29,
+    "loiThoai": "1 Tham gia 3 l\u1EA7n l\u00F4i \u0111\u00E0i",
+    "tomTat": "",
+    "huongDan": "Tham gia 3 l\u1EA7n l\u00F4i \u0111\u00E0i",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1627,
+    "chinh": false,
+    "ten": "NVTT: Ph\u00F3 b\u1EA3n",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 30,
+    "loiThoai": "1 Ho\u00E0n th\u00E0nh 5 l\u1EA7n ph\u00F3 b\u1EA3n",
+    "tomTat": "",
+    "huongDan": "Ho\u00E0n th\u00E0nh 5 l\u1EA7n ph\u00F3 b\u1EA3n",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 1,
+    "id": 16,
+    "chinh": false,
+    "ten": "M\u00F3n qu\u00E0 \u0111\u1EB7c bi\u1EC7t",
+    "loaiMucTieu": -1,
+    "npcGiao": 0,
+    "npcTra": -3,
+    "loiThoai": "1 C\u1EA3m \u01A1n anh v\u00EC \u0111\u00E3 g\u1EEDi cho t\u00F4i m\u00F3n qu\u00E0 \u0111\u1EB7c bi\u1EC7t c\u1EE7a C\u00F4 Emma. C\u00F4 \u1EA5y v\u1EABn r\u1EA5t lo l\u1EAFng cho t\u00F4i nh\u01B0 ng\u00E0y n\u00E0o.\u003E1 L\u00FAc c\u00F2n nh\u1ECF, do cha m\u1EB9 b\u1ECB l\u0169 th\u00FA d\u1EEF t\u1EA5n c\u00F4ng \u0111\u00E3 \u00E1m \u1EA3nh t\u00F4i \u0111\u1EBFn b\u00E2y gi\u1EDD. \u003E1 Nh\u01B0ng t\u1EEB nay t\u00F4i s\u1EBD v\u01B0\u1EE3t qua n\u1ED7i s\u1EE3 \u0111\u00F3, t\u00F4i s\u1EBD h\u1ECDc ph\u00E9p t\u1EA5n c\u00F4ng \u0111\u1EC3 v\u00E0o r\u1EEBng h\u00E1i thu\u1ED1c nh\u01B0 m\u1ED9t ph\u00F9 th\u1EE7y th\u1EF1c s\u1EF1, x\u1EE9ng \u0111\u00E1ng v\u1EDBi k\u1EF3 v\u1ECDng c\u1EE7a C\u00F4 Emma.\u003E1 H\u00E3y n\u00F3i v\u1EDBi c\u00F4 \u1EA5y r\u1EB1ng t\u00F4i c\u0169ng nh\u1EDB c\u00F4 \u1EA5y l\u1EAFm v\u00E0 s\u1EBD \u0111\u1EBFn th\u0103m c\u00F4 v\u00E0o m\u1ED9t ng\u00E0y n\u00E0o \u0111\u00F3.",
+    "tomTat": "",
+    "huongDan": "B\u1EA1n \u0111\u00E3 trao l\u1ECD thu\u1ED1c \u0111\u1EB7c bi\u1EC7t cho Lisa.",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 2,
+    "id": 5,
+    "chinh": true,
+    "ten": "Tr\u1EADn Chi\u1EBFn Ngo\u00E0i Kh\u01A1i",
+    "loaiMucTieu": 1,
+    "npcGiao": 0,
+    "npcTra": -9,
+    "loiThoai": "",
+    "tomTat": "Ti\u1EBFn ra r\u1EB7ng \u0110\u00E1 Ng\u1EA7m, gi\u00E0nh l\u1EA1i chi\u1EBFc r\u01B0\u01A1ng b\u00ED \u1EA9n t\u1EEB con th\u1EE7y qu\u00E1i \u0111\u1EA7u \u0111\u00E0n.",
+    "huongDan": "H\u00E3y gi\u00FAp ch\u00FAng t\u00F4i \u0111o\u1EA1t l\u1EA1i chi\u1EBFcr\u01B0\u01A1ng nguy\u1EC1n r\u1EE7a tr\u01B0\u1EDBc khi n\u00F3 b\u1ECB ph\u00E1 v\u1EE1!",
+    "mucTieu": [
+      {
+        "id": 17,
+        "hienTai": 0,
+        "can": 1
+      }
+    ]
+  },
+  {
+    "trangThai": 2,
+    "id": 10,
+    "chinh": false,
+    "ten": "L\u00E1 ng\u1EE5y trang",
+    "loaiMucTieu": 0,
+    "npcGiao": 0,
+    "npcTra": -3,
+    "loiThoai": "",
+    "tomTat": "\u0110i th\u1EB3ng \u0111\u1EBFn h\u1EBFt \u0111\u01B0\u1EDDng b\u1EDD bi\u1EC3n \u0111\u1EC3 \u0111\u1EBFn khu V\u1EF1c \u0110\u00E1, s\u0103n c\u00E1o xanh \u0111\u1EC3 l\u1EA5y 50 l\u00E1 ng\u1EE5y trang cho Lisa.",
+    "huongDan": "H\u00E3y \u0111i \u0111\u1EBFn h\u1EBFt \u0111\u01B0\u1EDDng b\u1EDD bi\u1EC3n anh s\u1EBD \u0111\u1EBFn \u0111\u01B0\u1EE3c khu V\u1EF1c \u0110\u00E1, n\u01A1i nh\u1EEFng con C\u00E1o Xanh s\u1ED1ng \u1EDF \u0111\u00F3.",
+    "mucTieu": [
+      {
+        "id": 5,
+        "hienTai": 5,
+        "can": 50
+      }
+    ]
+  },
+  {
+    "trangThai": 2,
+    "id": 13,
+    "chinh": true,
+    "ten": "N\u1EC1n v\u0103n minh c\u1ED5 \u0111\u1EA1i",
+    "loaiMucTieu": 0,
+    "npcGiao": 0,
+    "npcTra": -19,
+    "loiThoai": "",
+    "tomTat": "T\u1EEB Th\u00E0nh Ph\u1ED1 Kho B\u00E1u h\u00E3y tr\u1EDF xu\u1ED1ng Khu R\u1EEBng Ch\u1EBFt ph\u00EDa Nam \u0111\u1EC3 t\u00ECm 80 gi\u1ECDt n\u01B0\u1EDBc \u0111\u1ED9c t\u1EEB l\u0169 qu\u00E1i tr\u00F4ng gi\u1ED1ng Smiley.",
+    "huongDan": "\u0110\u1EC3 c\u00F3 \u0111\u01B0\u1EE3c n\u01B0\u1EDBc \u0111\u1ED9c, c\u1EADu ph\u1EA3i v\u00E0o r\u1EEBng ch\u1EBFt s\u0103n m\u1ED9t lo\u00E0i qu\u00E1i v\u1EADt tr\u00F4ng r\u1EA5t gi\u1ED1ng nh\u01B0 nh\u1EEFng con Smiley.",
+    "mucTieu": [
+      {
+        "id": 9,
+        "hienTai": 0,
+        "can": 80
+      }
+    ]
+  },
+  {
+    "trangThai": 2,
+    "id": 17,
+    "chinh": true,
+    "ten": "M\u1EA3nh gh\u00E9p b\u1EA3n \u0111\u1ED3",
+    "loaiMucTieu": 0,
+    "npcGiao": 0,
+    "npcTra": -21,
+    "loiThoai": "",
+    "tomTat": "Nhi\u1EC7m v\u1EE5 \u0111i xu\u1ED1ng H\u1EA7m m\u1ED9 t\u00ECm 50 m\u1EA3nh gh\u00E9p b\u1EA3n \u0111\u1ED3 t\u1EEB nh\u1EEFng K\u1EBB Gi\u1EEF M\u1ED9. Sau \u0111\u00F3 \u0111\u01B0a ch\u00FAng tr\u1EDF v\u1EC1 cho Black eye.",
+    "huongDan": "H\u00E3y \u0111i xu\u1ED1ng t\u1EA7ng gi\u1EEFa c\u1EE7a H\u1EA7m m\u1ED9, c\u1EEDa h\u1EA7m n\u1EB1m \u1EDF khu b\u00EAn ph\u1EA3i c\u1EE7a Th\u00E0nh Ph\u1ED1.",
+    "mucTieu": [
+      {
+        "id": 15,
+        "hienTai": 0,
+        "can": 50
+      }
+    ]
+  }
+]

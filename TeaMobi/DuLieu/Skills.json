@@ -1,0 +1,6711 @@
+[
+  {
+    "id": 0,
+    "iconId": 51,
+    "ten": "B\u1EAFn th\u01B0\u1EDDng",
+    "loai": 0,
+    "tamDanh": 90,
+    "moTa": "S\u1EED d\u1EE5ng \u0111\u1EA1n s\u00FAng h\u1ECFa mai.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 1,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 1,
+    "iconId": 52,
+    "ten": "Ph\u00E1t s\u00FAng c\u00F4ng ph\u00E1",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "Ph\u00E1t b\u1EAFn v\u1EDBi s\u1EE9c c\u00F4ng ph\u00E1 c\u1EE7a \u0111\u1EA1n hoa c\u1EA3i.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 5,
+        "capYeuCau": 2,
+        "hoiChieuMs": 2400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 5000
+          },
+          {
+            "id": 0,
+            "giaTri": 10
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 7,
+        "capYeuCau": 3,
+        "hoiChieuMs": 2240,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 5200
+          },
+          {
+            "id": 0,
+            "giaTri": 15
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 9,
+        "capYeuCau": 4,
+        "hoiChieuMs": 2080,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 5600
+          },
+          {
+            "id": 0,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 12,
+        "capYeuCau": 5,
+        "hoiChieuMs": 1920,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 6200
+          },
+          {
+            "id": 0,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 15,
+        "capYeuCau": 6,
+        "hoiChieuMs": 1760,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 7000
+          },
+          {
+            "id": 0,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 20,
+        "capYeuCau": 7,
+        "hoiChieuMs": 1600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 8000
+          },
+          {
+            "id": 0,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 8,
+        "hoiChieuMs": 1440,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9200
+          },
+          {
+            "id": 0,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 9,
+        "hoiChieuMs": 1280,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 10600
+          },
+          {
+            "id": 0,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 35,
+        "capYeuCau": 10,
+        "hoiChieuMs": 1120,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 12200
+          },
+          {
+            "id": 0,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 14000
+          },
+          {
+            "id": 33,
+            "giaTri": 100
+          },
+          {
+            "id": 0,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 16000
+          },
+          {
+            "id": 33,
+            "giaTri": 100
+          },
+          {
+            "id": 0,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18200
+          },
+          {
+            "id": 33,
+            "giaTri": 200
+          },
+          {
+            "id": 0,
+            "giaTri": 120
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 20600
+          },
+          {
+            "id": 33,
+            "giaTri": 200
+          },
+          {
+            "id": 0,
+            "giaTri": 140
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 23200
+          },
+          {
+            "id": 33,
+            "giaTri": 300
+          },
+          {
+            "id": 0,
+            "giaTri": 160
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 26000
+          },
+          {
+            "id": 33,
+            "giaTri": 400
+          },
+          {
+            "id": 0,
+            "giaTri": 180
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 2,
+    "iconId": 53,
+    "ten": "Ph\u00F3ng \u0111i\u1EC7n",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "S\u1EED d\u1EE5ng lo\u1EA1i \u0111\u1EA1n ph\u00F9 ph\u00E9p t\u1EA1o ra d\u00F2ng \u0111i\u1EC7n c\u01B0\u1EDDng \u0111\u1ED9 cao.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 5,
+        "capYeuCau": 2,
+        "hoiChieuMs": 2400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 5000
+          },
+          {
+            "id": 3,
+            "giaTri": 10
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 7,
+        "capYeuCau": 3,
+        "hoiChieuMs": 2240,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 5200
+          },
+          {
+            "id": 3,
+            "giaTri": 15
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 9,
+        "capYeuCau": 4,
+        "hoiChieuMs": 2080,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 5600
+          },
+          {
+            "id": 3,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 12,
+        "capYeuCau": 5,
+        "hoiChieuMs": 1920,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 6200
+          },
+          {
+            "id": 3,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 15,
+        "capYeuCau": 6,
+        "hoiChieuMs": 1760,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 7000
+          },
+          {
+            "id": 3,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 20,
+        "capYeuCau": 7,
+        "hoiChieuMs": 1600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 8000
+          },
+          {
+            "id": 3,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 8,
+        "hoiChieuMs": 1440,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9200
+          },
+          {
+            "id": 3,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 9,
+        "hoiChieuMs": 1280,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 10600
+          },
+          {
+            "id": 3,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 35,
+        "capYeuCau": 10,
+        "hoiChieuMs": 1120,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 12200
+          },
+          {
+            "id": 3,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 14000
+          },
+          {
+            "id": 3,
+            "giaTri": 80
+          },
+          {
+            "id": 33,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 16000
+          },
+          {
+            "id": 3,
+            "giaTri": 100
+          },
+          {
+            "id": 33,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18200
+          },
+          {
+            "id": 3,
+            "giaTri": 120
+          },
+          {
+            "id": 33,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 20600
+          },
+          {
+            "id": 3,
+            "giaTri": 140
+          },
+          {
+            "id": 33,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 23200
+          },
+          {
+            "id": 3,
+            "giaTri": 160
+          },
+          {
+            "id": 33,
+            "giaTri": 300
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 11,
+        "hoiChieuMs": 1000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 26000
+          },
+          {
+            "id": 3,
+            "giaTri": 180
+          },
+          {
+            "id": 33,
+            "giaTri": 400
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 3,
+    "iconId": 54,
+    "ten": "S\u00FAng ph\u00F3ng l\u1EF1u",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "Ph\u00F3ng \u0111\u1EA1n ch\u1EE9a thu\u1ED1c n\u1ED5 c\u1EF1c m\u1EA1nh v\u00E0o m\u1EE5c ti\u00EAu.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 10,
+        "capYeuCau": 10,
+        "hoiChieuMs": 4000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9000
+          },
+          {
+            "id": 0,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 12,
+        "capYeuCau": 11,
+        "hoiChieuMs": 3840,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9200
+          },
+          {
+            "id": 0,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 14,
+        "capYeuCau": 12,
+        "hoiChieuMs": 3680,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9600
+          },
+          {
+            "id": 0,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 16,
+        "capYeuCau": 13,
+        "hoiChieuMs": 3520,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 10200
+          },
+          {
+            "id": 0,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 20,
+        "capYeuCau": 14,
+        "hoiChieuMs": 3360,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 11000
+          },
+          {
+            "id": 0,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 15,
+        "hoiChieuMs": 3200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 12000
+          },
+          {
+            "id": 0,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 16,
+        "hoiChieuMs": 3040,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 13200
+          },
+          {
+            "id": 0,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 17,
+        "hoiChieuMs": 2880,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 14600
+          },
+          {
+            "id": 0,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 18,
+        "hoiChieuMs": 2720,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 16200
+          },
+          {
+            "id": 0,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 100
+          },
+          {
+            "id": 7,
+            "giaTri": 18000
+          },
+          {
+            "id": 0,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 100
+          },
+          {
+            "id": 7,
+            "giaTri": 20000
+          },
+          {
+            "id": 0,
+            "giaTri": 110
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 200
+          },
+          {
+            "id": 7,
+            "giaTri": 22200
+          },
+          {
+            "id": 0,
+            "giaTri": 130
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 200
+          },
+          {
+            "id": 7,
+            "giaTri": 24600
+          },
+          {
+            "id": 0,
+            "giaTri": 150
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 300
+          },
+          {
+            "id": 7,
+            "giaTri": 27200
+          },
+          {
+            "id": 0,
+            "giaTri": 170
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 31,
+            "giaTri": 400
+          },
+          {
+            "id": 7,
+            "giaTri": 30000
+          },
+          {
+            "id": 0,
+            "giaTri": 190
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 4,
+    "iconId": 55,
+    "ten": "Tia c\u00F4ng ph\u00E1",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "D\u00F9ng m\u1ED9t lo\u1EA1i \u0111\u1EA1n \u0111\u1EB7c bi\u1EC7t \u0111\u01B0\u1EE3c ph\u00F9 ph\u00E9p t\u1EA1o ra tia s\u00E1ng \u0111i\u1EC7n.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 10,
+        "capYeuCau": 10,
+        "hoiChieuMs": 4000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9000
+          },
+          {
+            "id": 3,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 12,
+        "capYeuCau": 11,
+        "hoiChieuMs": 3840,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9200
+          },
+          {
+            "id": 3,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 14,
+        "capYeuCau": 12,
+        "hoiChieuMs": 3680,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9600
+          },
+          {
+            "id": 3,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 16,
+        "capYeuCau": 13,
+        "hoiChieuMs": 3520,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 10200
+          },
+          {
+            "id": 3,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 20,
+        "capYeuCau": 14,
+        "hoiChieuMs": 3360,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 11000
+          },
+          {
+            "id": 3,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 15,
+        "hoiChieuMs": 3200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 12000
+          },
+          {
+            "id": 3,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 16,
+        "hoiChieuMs": 3040,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 13200
+          },
+          {
+            "id": 3,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 17,
+        "hoiChieuMs": 2880,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 14600
+          },
+          {
+            "id": 3,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 18,
+        "hoiChieuMs": 2720,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 16200
+          },
+          {
+            "id": 3,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18000
+          },
+          {
+            "id": 31,
+            "giaTri": 100
+          },
+          {
+            "id": 3,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 20000
+          },
+          {
+            "id": 31,
+            "giaTri": 100
+          },
+          {
+            "id": 3,
+            "giaTri": 110
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 22200
+          },
+          {
+            "id": 31,
+            "giaTri": 200
+          },
+          {
+            "id": 3,
+            "giaTri": 130
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 24600
+          },
+          {
+            "id": 31,
+            "giaTri": 200
+          },
+          {
+            "id": 3,
+            "giaTri": 150
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 27200
+          },
+          {
+            "id": 31,
+            "giaTri": 300
+          },
+          {
+            "id": 3,
+            "giaTri": 170
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 19,
+        "hoiChieuMs": 2560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 30000
+          },
+          {
+            "id": 31,
+            "giaTri": 400
+          },
+          {
+            "id": 3,
+            "giaTri": 190
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 5,
+    "iconId": 56,
+    "ten": "B\u00E3o \u0111\u1EA1n",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "B\u1EAFn ra lo\u1EA1t \u0111\u1EA1n li\u00EAn h\u1ED3i nh\u01B0 m\u1ED9t c\u01A1n b\u00E3o v\u1EC1 ph\u00EDa k\u1EBB th\u00F9.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 20,
+        "hoiChieuMs": 5600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 13000
+          },
+          {
+            "id": 0,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 21,
+        "hoiChieuMs": 5440,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 13200
+          },
+          {
+            "id": 0,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 22,
+        "hoiChieuMs": 5280,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 13600
+          },
+          {
+            "id": 0,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 23,
+        "hoiChieuMs": 5120,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 14200
+          },
+          {
+            "id": 0,
+            "giaTri": 45
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 24,
+        "hoiChieuMs": 4960,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 15000
+          },
+          {
+            "id": 0,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 25,
+        "hoiChieuMs": 4800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 16000
+          },
+          {
+            "id": 0,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 26,
+        "hoiChieuMs": 4640,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 17200
+          },
+          {
+            "id": 0,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 27,
+        "hoiChieuMs": 4480,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18600
+          },
+          {
+            "id": 0,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 28,
+        "hoiChieuMs": 4320,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 20200
+          },
+          {
+            "id": 0,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 22000
+          },
+          {
+            "id": 36,
+            "giaTri": 100
+          },
+          {
+            "id": 0,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 24000
+          },
+          {
+            "id": 36,
+            "giaTri": 100
+          },
+          {
+            "id": 0,
+            "giaTri": 120
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 26200
+          },
+          {
+            "id": 36,
+            "giaTri": 200
+          },
+          {
+            "id": 0,
+            "giaTri": 140
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 28600
+          },
+          {
+            "id": 36,
+            "giaTri": 200
+          },
+          {
+            "id": 0,
+            "giaTri": 160
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 31200
+          },
+          {
+            "id": 36,
+            "giaTri": 300
+          },
+          {
+            "id": 0,
+            "giaTri": 180
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 34000
+          },
+          {
+            "id": 36,
+            "giaTri": 400
+          },
+          {
+            "id": 0,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 6,
+    "iconId": 57,
+    "ten": "\u00C1nh ch\u1EDBp h\u1EE7y di\u1EC7t",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "Ph\u00F3ng ra m\u1ED9t lu\u1ED3ng s\u1EA5m ch\u1EDBp xuy\u00EAn qua m\u1EE5c ti\u00EAu.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 20,
+        "hoiChieuMs": 5600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 13000
+          },
+          {
+            "id": 3,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 25,
+        "capYeuCau": 21,
+        "hoiChieuMs": 5440,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 13200
+          },
+          {
+            "id": 3,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 22,
+        "hoiChieuMs": 5280,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 13600
+          },
+          {
+            "id": 3,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 23,
+        "hoiChieuMs": 5120,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 14200
+          },
+          {
+            "id": 3,
+            "giaTri": 45
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 24,
+        "hoiChieuMs": 4960,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 15000
+          },
+          {
+            "id": 3,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 25,
+        "hoiChieuMs": 4800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 16000
+          },
+          {
+            "id": 3,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 26,
+        "hoiChieuMs": 4640,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 17200
+          },
+          {
+            "id": 3,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 27,
+        "hoiChieuMs": 4480,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18600
+          },
+          {
+            "id": 3,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 28,
+        "hoiChieuMs": 4320,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 20200
+          },
+          {
+            "id": 3,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 22000
+          },
+          {
+            "id": 36,
+            "giaTri": 100
+          },
+          {
+            "id": 3,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 24000
+          },
+          {
+            "id": 36,
+            "giaTri": 100
+          },
+          {
+            "id": 3,
+            "giaTri": 120
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 26200
+          },
+          {
+            "id": 36,
+            "giaTri": 200
+          },
+          {
+            "id": 3,
+            "giaTri": 140
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 28600
+          },
+          {
+            "id": 36,
+            "giaTri": 200
+          },
+          {
+            "id": 3,
+            "giaTri": 160
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 31200
+          },
+          {
+            "id": 36,
+            "giaTri": 300
+          },
+          {
+            "id": 3,
+            "giaTri": 180
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 29,
+        "hoiChieuMs": 4160,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 34000
+          },
+          {
+            "id": 36,
+            "giaTri": 400
+          },
+          {
+            "id": 3,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 7,
+    "iconId": 58,
+    "ten": "H\u1ECFa ti\u1EC5n c\u00E0ng qu\u00E9t",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "Ph\u00F3ng m\u1ED9t d\u00E0n h\u1ECFa ti\u1EC5n h\u1EE7y di\u1EC7t v\u1EC1 ph\u00EDa k\u1EBB th\u00F9.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 30,
+        "capYeuCau": 30,
+        "hoiChieuMs": 8000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9000
+          },
+          {
+            "id": 0,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 31,
+        "hoiChieuMs": 7840,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9200
+          },
+          {
+            "id": 0,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 32,
+        "hoiChieuMs": 7680,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 9600
+          },
+          {
+            "id": 0,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 33,
+        "hoiChieuMs": 7520,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 10200
+          },
+          {
+            "id": 0,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 110,
+        "capYeuCau": 34,
+        "hoiChieuMs": 7360,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 11000
+          },
+          {
+            "id": 0,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 130,
+        "capYeuCau": 35,
+        "hoiChieuMs": 7200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 12000
+          },
+          {
+            "id": 0,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 150,
+        "capYeuCau": 36,
+        "hoiChieuMs": 7040,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 13200
+          },
+          {
+            "id": 0,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 170,
+        "capYeuCau": 37,
+        "hoiChieuMs": 6880,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 14600
+          },
+          {
+            "id": 0,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 190,
+        "capYeuCau": 38,
+        "hoiChieuMs": 6720,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 16200
+          },
+          {
+            "id": 0,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18000
+          },
+          {
+            "id": 0,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 250,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 20000
+          },
+          {
+            "id": 0,
+            "giaTri": 110
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 280,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 22200
+          },
+          {
+            "id": 0,
+            "giaTri": 130
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 310,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 24600
+          },
+          {
+            "id": 0,
+            "giaTri": 150
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 340,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 27200
+          },
+          {
+            "id": 0,
+            "giaTri": 170
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 380,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 30000
+          },
+          {
+            "id": 0,
+            "giaTri": 190
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 8,
+    "iconId": 59,
+    "ten": "B\u00E3o s\u1EA5m ch\u1EDBp",
+    "loai": 0,
+    "tamDanh": 130,
+    "moTa": "B\u1EAFn m\u1ED9t vi\u00EAn \u0111\u1EA1n ph\u00E9p \u0111\u1EB7c bi\u1EC7t l\u00EAn tr\u1EDDi \u0111\u1EC3 t\u1EA1o ra c\u01A1n m\u01B0a s\u1EA5m ch\u1EDBp.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 30,
+        "capYeuCau": 30,
+        "hoiChieuMs": 8000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9000
+          },
+          {
+            "id": 3,
+            "giaTri": 20
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 31,
+        "hoiChieuMs": 7840,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9200
+          },
+          {
+            "id": 3,
+            "giaTri": 25
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 32,
+        "hoiChieuMs": 7680,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 9600
+          },
+          {
+            "id": 3,
+            "giaTri": 30
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 33,
+        "hoiChieuMs": 7520,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 10200
+          },
+          {
+            "id": 3,
+            "giaTri": 35
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 160
+      },
+      {
+        "mp": 110,
+        "capYeuCau": 34,
+        "hoiChieuMs": 7360,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 11000
+          },
+          {
+            "id": 3,
+            "giaTri": 40
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 130,
+        "capYeuCau": 35,
+        "hoiChieuMs": 7200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 12000
+          },
+          {
+            "id": 3,
+            "giaTri": 50
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 150,
+        "capYeuCau": 36,
+        "hoiChieuMs": 7040,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 13200
+          },
+          {
+            "id": 3,
+            "giaTri": 60
+          }
+        ],
+        "soMucTieu": 4,
+        "tamLan": 160
+      },
+      {
+        "mp": 170,
+        "capYeuCau": 37,
+        "hoiChieuMs": 6880,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 14600
+          },
+          {
+            "id": 3,
+            "giaTri": 70
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 190,
+        "capYeuCau": 38,
+        "hoiChieuMs": 6720,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 16200
+          },
+          {
+            "id": 3,
+            "giaTri": 80
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18000
+          },
+          {
+            "id": 3,
+            "giaTri": 90
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 250,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 20000
+          },
+          {
+            "id": 3,
+            "giaTri": 110
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 280,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 22200
+          },
+          {
+            "id": 3,
+            "giaTri": 130
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 310,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 24600
+          },
+          {
+            "id": 3,
+            "giaTri": 150
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 340,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 27200
+          },
+          {
+            "id": 3,
+            "giaTri": 170
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      },
+      {
+        "mp": 380,
+        "capYeuCau": 39,
+        "hoiChieuMs": 6560,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 30000
+          },
+          {
+            "id": 3,
+            "giaTri": 190
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 160
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 9,
+    "iconId": 9,
+    "ten": "C\u01A1 th\u1EC3 chi\u1EBFn binh",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "T\u0103ng t\u1EF7 l\u1EC7 % HP v\u00E0 hi\u1EC7u qu\u1EA3 khi s\u1EED d\u1EE5ng c\u00E1c l\u1ECD thu\u1ED1c HP.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 5,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 50,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 6,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 100,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 7,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 150,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 8,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 200,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 9,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 250,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 1000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 10,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 300,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 1200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 11,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 350,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 1400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 12,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 400,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 13,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 450,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 27,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 500,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 100
+          },
+          {
+            "id": 27,
+            "giaTri": 2000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 550,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 100
+          },
+          {
+            "id": 27,
+            "giaTri": 2200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 600,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 100
+          },
+          {
+            "id": 27,
+            "giaTri": 2400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 650,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 200
+          },
+          {
+            "id": 27,
+            "giaTri": 2600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 700,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 200
+          },
+          {
+            "id": 27,
+            "giaTri": 2800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 750,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 29,
+            "giaTri": 300
+          },
+          {
+            "id": 27,
+            "giaTri": 3000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 10,
+    "iconId": 10,
+    "ten": "B\u1ED9 n\u00E3o th\u00F4ng th\u00E1i",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "T\u0103ng t\u1EF7 l\u1EC7 % MP v\u00E0 hi\u1EC7u qu\u1EA3 s\u1EED d\u1EE5ng c\u00E1c l\u1ECD thu\u1ED1c MP.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 5,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 50,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 6,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 100,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 7,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 150,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 8,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 200,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 1000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 9,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 250,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 1200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 10,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 300,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 1500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 11,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 350,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 12,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 400,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 2100
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 13,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 450,
+        "chiSo": [
+          {
+            "id": 28,
+            "giaTri": 2400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 500,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 100
+          },
+          {
+            "id": 28,
+            "giaTri": 2700
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 550,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 100
+          },
+          {
+            "id": 28,
+            "giaTri": 3000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 600,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 200
+          },
+          {
+            "id": 28,
+            "giaTri": 3300
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 650,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 200
+          },
+          {
+            "id": 28,
+            "giaTri": 3600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 700,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 300
+          },
+          {
+            "id": 28,
+            "giaTri": 3900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 14,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 750,
+        "chiSo": [
+          {
+            "id": 30,
+            "giaTri": 400
+          },
+          {
+            "id": 28,
+            "giaTri": 4400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 11,
+    "iconId": 62,
+    "ten": "M\u00E0i v\u0169 kh\u00ED",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "K\u1EF9 n\u0103ng m\u00E0i v\u0169 kh\u00ED lu\u00F4n s\u1EAFt nh\u1ECDn nh\u1EB1m gia t\u0103ng s\u00E1t th\u01B0\u01A1ng v\u1EADt l\u00FD.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 15,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 16,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 700
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 17,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 18,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 1100
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 19,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 1300
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 20,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 21,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 1900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 22,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 2200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 23,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 2500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 2800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 3200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 3600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 4000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 4400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 4800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 12,
+    "iconId": 63,
+    "ten": "S\u00FAng t\u00EDch \u0111i\u1EC7n",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "Kh\u1EA9u s\u00FAng \u0111\u01B0\u1EE3c n\u00E2ng c\u1EA5p c\u00F3 kh\u1EA3 n\u0103ng t\u00EDch \u0111i\u1EC7n trong chi\u1EBFn \u0111\u1EA5u, t\u0103ng s\u00E1t th\u01B0\u01A1ng \u0111i\u1EC7n.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 15,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 16,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 700
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 17,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 18,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1100
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 19,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1300
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 20,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 21,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 22,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 2200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 23,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 2500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 2800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 3200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 3600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 4000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 4400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 24,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 4800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 13,
+    "iconId": 64,
+    "ten": "S\u00FAng h\u01A1i n\u01B0\u1EDBc",
+    "loai": 1,
+    "tamDanh": 130,
+    "moTa": "S\u1EED d\u1EE5ng thi\u1EBFt b\u1ECB ph\u00F3ng ra h\u01A1i n\u01B0\u1EDBc l\u00E0m \u0111\u1ED1i ph\u01B0\u01A1ng t\u1EA5n c\u00F4ng tr\u01B0\u1EE3t m\u1EE5c ti\u00EAu.",
+    "loaiBuff": 2,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 25,
+        "hoiChieuMs": 44000,
+        "thoiGianBuffMs": 11000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 34,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 26,
+        "hoiChieuMs": 45000,
+        "thoiGianBuffMs": 12000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 34,
+            "giaTri": 1700
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 27,
+        "hoiChieuMs": 46000,
+        "thoiGianBuffMs": 13000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 34,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 28,
+        "hoiChieuMs": 46000,
+        "thoiGianBuffMs": 14000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 34,
+            "giaTri": 1900
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 29,
+        "hoiChieuMs": 47000,
+        "thoiGianBuffMs": 15000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 34,
+            "giaTri": 2000
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 30,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 16000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 200
+          },
+          {
+            "id": 34,
+            "giaTri": 2100
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 31,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 17000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 400
+          },
+          {
+            "id": 34,
+            "giaTri": 2200
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 32,
+        "hoiChieuMs": 49000,
+        "thoiGianBuffMs": 18000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 600
+          },
+          {
+            "id": 34,
+            "giaTri": 2300
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 33,
+        "hoiChieuMs": 50000,
+        "thoiGianBuffMs": 19000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 800
+          },
+          {
+            "id": 34,
+            "giaTri": 2400
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 34,
+        "hoiChieuMs": 50000,
+        "thoiGianBuffMs": 20000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1000
+          },
+          {
+            "id": 34,
+            "giaTri": 2500
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 34,
+        "hoiChieuMs": 51000,
+        "thoiGianBuffMs": 21000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1200
+          },
+          {
+            "id": 34,
+            "giaTri": 2700
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 34,
+        "hoiChieuMs": 52000,
+        "thoiGianBuffMs": 22000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1400
+          },
+          {
+            "id": 34,
+            "giaTri": 2900
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 34,
+        "hoiChieuMs": 52000,
+        "thoiGianBuffMs": 23000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1600
+          },
+          {
+            "id": 34,
+            "giaTri": 3100
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 34,
+        "hoiChieuMs": 53000,
+        "thoiGianBuffMs": 24000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1800
+          },
+          {
+            "id": 34,
+            "giaTri": 3300
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 34,
+        "hoiChieuMs": 54000,
+        "thoiGianBuffMs": 25000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 2000
+          },
+          {
+            "id": 34,
+            "giaTri": 3500
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 14,
+    "iconId": 65,
+    "ten": "\u0110\u1EA1n xuy\u00EAn gi\u00E1p",
+    "loai": 1,
+    "tamDanh": 130,
+    "moTa": "S\u1EED d\u1EE5ng lo\u1EA1i \u0111\u1EA1n \u0111\u1EB7c bi\u1EC7t c\u00F3 th\u1EC3 b\u1EAFn xuy\u00EAn qua gi\u00E1p c\u1EE7a \u0111\u1ED1i ph\u01B0\u01A1ng.",
+    "loaiBuff": 2,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 25,
+        "hoiChieuMs": 44000,
+        "thoiGianBuffMs": 11000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 36,
+            "giaTri": 1100
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 30,
+        "capYeuCau": 26,
+        "hoiChieuMs": 45000,
+        "thoiGianBuffMs": 12000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 36,
+            "giaTri": 1200
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 27,
+        "hoiChieuMs": 46000,
+        "thoiGianBuffMs": 13000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 36,
+            "giaTri": 1300
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 50,
+        "capYeuCau": 28,
+        "hoiChieuMs": 46000,
+        "thoiGianBuffMs": 14000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 36,
+            "giaTri": 1400
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 29,
+        "hoiChieuMs": 47000,
+        "thoiGianBuffMs": 15000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 36,
+            "giaTri": 1500
+          }
+        ],
+        "soMucTieu": 1,
+        "tamLan": 0
+      },
+      {
+        "mp": 70,
+        "capYeuCau": 30,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 16000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 200
+          },
+          {
+            "id": 7,
+            "giaTri": 200
+          },
+          {
+            "id": 36,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 31,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 17000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 400
+          },
+          {
+            "id": 7,
+            "giaTri": 400
+          },
+          {
+            "id": 36,
+            "giaTri": 1700
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 90,
+        "capYeuCau": 32,
+        "hoiChieuMs": 49000,
+        "thoiGianBuffMs": 18000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 600
+          },
+          {
+            "id": 7,
+            "giaTri": 600
+          },
+          {
+            "id": 36,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 33,
+        "hoiChieuMs": 50000,
+        "thoiGianBuffMs": 19000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 800
+          },
+          {
+            "id": 7,
+            "giaTri": 800
+          },
+          {
+            "id": 36,
+            "giaTri": 1900
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 34,
+        "hoiChieuMs": 50000,
+        "thoiGianBuffMs": 20000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1000
+          },
+          {
+            "id": 7,
+            "giaTri": 1000
+          },
+          {
+            "id": 36,
+            "giaTri": 2000
+          }
+        ],
+        "soMucTieu": 3,
+        "tamLan": 120
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 34,
+        "hoiChieuMs": 51000,
+        "thoiGianBuffMs": 21000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1200
+          },
+          {
+            "id": 7,
+            "giaTri": 1200
+          },
+          {
+            "id": 36,
+            "giaTri": 2200
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 34,
+        "hoiChieuMs": 52000,
+        "thoiGianBuffMs": 22000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1400
+          },
+          {
+            "id": 7,
+            "giaTri": 1400
+          },
+          {
+            "id": 36,
+            "giaTri": 2400
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 34,
+        "hoiChieuMs": 52000,
+        "thoiGianBuffMs": 23000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1600
+          },
+          {
+            "id": 7,
+            "giaTri": 1600
+          },
+          {
+            "id": 36,
+            "giaTri": 2600
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 34,
+        "hoiChieuMs": 53000,
+        "thoiGianBuffMs": 24000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 1800
+          },
+          {
+            "id": 7,
+            "giaTri": 1800
+          },
+          {
+            "id": 36,
+            "giaTri": 2800
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 34,
+        "hoiChieuMs": 54000,
+        "thoiGianBuffMs": 25000,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 2000
+          },
+          {
+            "id": 7,
+            "giaTri": 2000
+          },
+          {
+            "id": 36,
+            "giaTri": 3000
+          }
+        ],
+        "soMucTieu": 5,
+        "tamLan": 120
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 15,
+    "iconId": 15,
+    "ten": "Khi\u00EAn h\u1ED9 m\u1EC7nh",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "T\u1EA1o ra chi\u1EBFc khi\u00EAn v\u00F4 h\u00ECnh c\u00F3 kh\u1EA3 n\u0103ng gia t\u0103ng gi\u00E1p tr\u1EE5.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 40,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 41,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 42,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 43,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 44,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 45,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 46,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 47,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 2100
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 48,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 2400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 2800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 3200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 3600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 4000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 4400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 15,
+            "giaTri": 4800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 16,
+    "iconId": 16,
+    "ten": "Tinh th\u1EA7n v\u1EEFng v\u00E0ng",
+    "loai": 2,
+    "tamDanh": 0,
+    "moTa": "R\u00E8n luy\u1EC7n m\u1ED9t tinh th\u1EA7n c\u00F3 th\u1EC3 ch\u00F3ng ch\u1ECDi v\u1EDBi b\u00E3o t\u1ED1, kh\u1EA3 n\u0103ng kh\u00E1ng ng\u1EF1 m\u1ECDi lo\u1EA1i s\u00E1t th\u01B0\u01A1ng.",
+    "loaiBuff": 0,
+    "hieuUngPhu": -1,
+    "cacCap": [
+      {
+        "mp": 0,
+        "capYeuCau": 40,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 100
+          },
+          {
+            "id": 19,
+            "giaTri": 500
+          },
+          {
+            "id": 18,
+            "giaTri": 100
+          },
+          {
+            "id": 17,
+            "giaTri": 100
+          },
+          {
+            "id": 16,
+            "giaTri": 500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 41,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 200
+          },
+          {
+            "id": 19,
+            "giaTri": 600
+          },
+          {
+            "id": 18,
+            "giaTri": 200
+          },
+          {
+            "id": 17,
+            "giaTri": 200
+          },
+          {
+            "id": 16,
+            "giaTri": 600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 42,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 300
+          },
+          {
+            "id": 19,
+            "giaTri": 700
+          },
+          {
+            "id": 18,
+            "giaTri": 300
+          },
+          {
+            "id": 17,
+            "giaTri": 300
+          },
+          {
+            "id": 16,
+            "giaTri": 700
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 43,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 400
+          },
+          {
+            "id": 19,
+            "giaTri": 800
+          },
+          {
+            "id": 18,
+            "giaTri": 400
+          },
+          {
+            "id": 17,
+            "giaTri": 400
+          },
+          {
+            "id": 16,
+            "giaTri": 800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 44,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 500
+          },
+          {
+            "id": 19,
+            "giaTri": 900
+          },
+          {
+            "id": 18,
+            "giaTri": 500
+          },
+          {
+            "id": 17,
+            "giaTri": 500
+          },
+          {
+            "id": 16,
+            "giaTri": 900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 45,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 600
+          },
+          {
+            "id": 19,
+            "giaTri": 1000
+          },
+          {
+            "id": 18,
+            "giaTri": 600
+          },
+          {
+            "id": 17,
+            "giaTri": 600
+          },
+          {
+            "id": 16,
+            "giaTri": 1000
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 46,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 700
+          },
+          {
+            "id": 19,
+            "giaTri": 1100
+          },
+          {
+            "id": 18,
+            "giaTri": 700
+          },
+          {
+            "id": 17,
+            "giaTri": 700
+          },
+          {
+            "id": 16,
+            "giaTri": 1100
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 47,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 800
+          },
+          {
+            "id": 19,
+            "giaTri": 1200
+          },
+          {
+            "id": 18,
+            "giaTri": 800
+          },
+          {
+            "id": 17,
+            "giaTri": 800
+          },
+          {
+            "id": 16,
+            "giaTri": 1200
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 48,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 900
+          },
+          {
+            "id": 19,
+            "giaTri": 1300
+          },
+          {
+            "id": 18,
+            "giaTri": 900
+          },
+          {
+            "id": 17,
+            "giaTri": 900
+          },
+          {
+            "id": 16,
+            "giaTri": 1300
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1000
+          },
+          {
+            "id": 19,
+            "giaTri": 1400
+          },
+          {
+            "id": 18,
+            "giaTri": 1000
+          },
+          {
+            "id": 17,
+            "giaTri": 1000
+          },
+          {
+            "id": 16,
+            "giaTri": 1400
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1100
+          },
+          {
+            "id": 19,
+            "giaTri": 1500
+          },
+          {
+            "id": 18,
+            "giaTri": 1100
+          },
+          {
+            "id": 17,
+            "giaTri": 1100
+          },
+          {
+            "id": 16,
+            "giaTri": 1500
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1200
+          },
+          {
+            "id": 19,
+            "giaTri": 1600
+          },
+          {
+            "id": 18,
+            "giaTri": 1200
+          },
+          {
+            "id": 17,
+            "giaTri": 1200
+          },
+          {
+            "id": 16,
+            "giaTri": 1600
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1300
+          },
+          {
+            "id": 19,
+            "giaTri": 1700
+          },
+          {
+            "id": 18,
+            "giaTri": 1300
+          },
+          {
+            "id": 17,
+            "giaTri": 1300
+          },
+          {
+            "id": 16,
+            "giaTri": 1700
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1400
+          },
+          {
+            "id": 19,
+            "giaTri": 1800
+          },
+          {
+            "id": 18,
+            "giaTri": 1400
+          },
+          {
+            "id": 17,
+            "giaTri": 1400
+          },
+          {
+            "id": 16,
+            "giaTri": 1800
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      },
+      {
+        "mp": 0,
+        "capYeuCau": 49,
+        "hoiChieuMs": 0,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 20,
+            "giaTri": 1500
+          },
+          {
+            "id": 19,
+            "giaTri": 1900
+          },
+          {
+            "id": 18,
+            "giaTri": 1500
+          },
+          {
+            "id": 17,
+            "giaTri": 1500
+          },
+          {
+            "id": 16,
+            "giaTri": 1900
+          }
+        ],
+        "soMucTieu": 0,
+        "tamLan": 0
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 17,
+    "iconId": 71,
+    "ten": "Ru ng\u1EE7",
+    "loai": 0,
+    "tamDanh": 90,
+    "moTa": "Ru ng\u1EE7 \u0111\u1ED1i ph\u01B0\u01A1ng trong 10s",
+    "loaiBuff": 0,
+    "hieuUngPhu": 6,
+    "cacCap": [
+      {
+        "mp": 1,
+        "capYeuCau": 90,
+        "hoiChieuMs": 144000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 91,
+        "hoiChieuMs": 136000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 92,
+        "hoiChieuMs": 128000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 93,
+        "hoiChieuMs": 120000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 94,
+        "hoiChieuMs": 112000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 95,
+        "hoiChieuMs": 104000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 96,
+        "hoiChieuMs": 96000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 97,
+        "hoiChieuMs": 88000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 98,
+        "hoiChieuMs": 80000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 99,
+        "hoiChieuMs": 72000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 100,
+        "hoiChieuMs": 64000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 101,
+        "hoiChieuMs": 56000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 102,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 103,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 104,
+        "hoiChieuMs": 48000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 90
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  },
+  {
+    "id": 18,
+    "iconId": 73,
+    "ten": "H\u1EA5p th\u1EE5 ",
+    "loai": 1,
+    "tamDanh": 140,
+    "moTa": "H\u1ED3i 1% m\u00E1u sau m\u1ED7i ph\u00E1t \u0111\u00E1nh cho m\u00ECnh, t\u00E1c d\u1EE5ng t\u01B0\u01A1ng t\u1EF1 cho ng\u01B0\u1EDDi c\u00F9ng party",
+    "loaiBuff": 1,
+    "hieuUngPhu": 6,
+    "cacCap": [
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 240000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 230000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 220000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 210000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 200000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 190000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 180000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 170000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 160000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 150000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 140000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 130000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 120000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 110000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      },
+      {
+        "mp": 1,
+        "capYeuCau": 40,
+        "hoiChieuMs": 100000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 16,
+        "thoiGianHieuUngPhu": 10,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [],
+        "soMucTieu": 1,
+        "tamLan": 140
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 19,
+    "iconId": 81,
+    "ten": "S\u00FAng th\u1EA7n c\u00F4ng",
+    "loai": 0,
+    "tamDanh": 140,
+    "moTa": "T\u1EA1o ra v\u00F4 s\u1ED1 vi\u00EAn \u0111\u1EA1n v\u00E0 t\u00EAn l\u1EEDa b\u1EAFn v\u1EC1 ph\u00EDa k\u1EBB \u0111\u1ECBch",
+    "loaiBuff": 0,
+    "hieuUngPhu": 6,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 110,
+        "hoiChieuMs": 19200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18000
+          },
+          {
+            "id": 0,
+            "giaTri": 84
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 111,
+        "hoiChieuMs": 18400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18200
+          },
+          {
+            "id": 0,
+            "giaTri": 89
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 112,
+        "hoiChieuMs": 17600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 18600
+          },
+          {
+            "id": 0,
+            "giaTri": 95
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 113,
+        "hoiChieuMs": 16800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 19200
+          },
+          {
+            "id": 0,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 114,
+        "hoiChieuMs": 16000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 20000
+          },
+          {
+            "id": 0,
+            "giaTri": 105
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 115,
+        "hoiChieuMs": 15200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 21000
+          },
+          {
+            "id": 0,
+            "giaTri": 116
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 116,
+        "hoiChieuMs": 14400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 22200
+          },
+          {
+            "id": 0,
+            "giaTri": 126
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 117,
+        "hoiChieuMs": 13600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 23600
+          },
+          {
+            "id": 0,
+            "giaTri": 137
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 118,
+        "hoiChieuMs": 12800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 25200
+          },
+          {
+            "id": 0,
+            "giaTri": 147
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 119,
+        "hoiChieuMs": 12000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 27000
+          },
+          {
+            "id": 0,
+            "giaTri": 158
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 120,
+        "hoiChieuMs": 11200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 29000
+          },
+          {
+            "id": 0,
+            "giaTri": 168
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 240,
+        "capYeuCau": 121,
+        "hoiChieuMs": 10400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 31200
+          },
+          {
+            "id": 0,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 260,
+        "capYeuCau": 122,
+        "hoiChieuMs": 9600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 33600
+          },
+          {
+            "id": 0,
+            "giaTri": 221
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 280,
+        "capYeuCau": 123,
+        "hoiChieuMs": 8800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 36200
+          },
+          {
+            "id": 0,
+            "giaTri": 242
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 300,
+        "capYeuCau": 124,
+        "hoiChieuMs": 8000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 7,
+            "giaTri": 39000
+          },
+          {
+            "id": 0,
+            "giaTri": 263
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 0
+  },
+  {
+    "id": 20,
+    "iconId": 77,
+    "ten": "S\u00FAng \u0111i\u1EC7n t\u1EEB",
+    "loai": 0,
+    "tamDanh": 140,
+    "moTa": "T\u1EA1o ra nh\u1EEFng tia s\u00E9t t\u1EEB tr\u1EDDi xu\u1ED1ng k\u1EBFt h\u1EE3p v\u1EDBi \u0111i\u1EC7n t\u1EEB c\u00E0n qu\u00E9t k\u1EBB \u0111\u1ECBch",
+    "loaiBuff": 0,
+    "hieuUngPhu": 6,
+    "cacCap": [
+      {
+        "mp": 20,
+        "capYeuCau": 110,
+        "hoiChieuMs": 19200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18000
+          },
+          {
+            "id": 3,
+            "giaTri": 84
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 40,
+        "capYeuCau": 111,
+        "hoiChieuMs": 18400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18200
+          },
+          {
+            "id": 3,
+            "giaTri": 89
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 60,
+        "capYeuCau": 112,
+        "hoiChieuMs": 17600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 18600
+          },
+          {
+            "id": 3,
+            "giaTri": 95
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 80,
+        "capYeuCau": 113,
+        "hoiChieuMs": 16800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 19200
+          },
+          {
+            "id": 3,
+            "giaTri": 100
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 100,
+        "capYeuCau": 114,
+        "hoiChieuMs": 16000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 20000
+          },
+          {
+            "id": 3,
+            "giaTri": 105
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 120,
+        "capYeuCau": 115,
+        "hoiChieuMs": 15200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 21000
+          },
+          {
+            "id": 3,
+            "giaTri": 116
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 140,
+        "capYeuCau": 116,
+        "hoiChieuMs": 14400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 22200
+          },
+          {
+            "id": 3,
+            "giaTri": 126
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 160,
+        "capYeuCau": 117,
+        "hoiChieuMs": 13600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 23600
+          },
+          {
+            "id": 3,
+            "giaTri": 137
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 180,
+        "capYeuCau": 118,
+        "hoiChieuMs": 12800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 25200
+          },
+          {
+            "id": 3,
+            "giaTri": 147
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 200,
+        "capYeuCau": 119,
+        "hoiChieuMs": 12000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 28000
+          },
+          {
+            "id": 3,
+            "giaTri": 158
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 220,
+        "capYeuCau": 120,
+        "hoiChieuMs": 11200,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 29000
+          },
+          {
+            "id": 3,
+            "giaTri": 179
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 240,
+        "capYeuCau": 121,
+        "hoiChieuMs": 10400,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 31200
+          },
+          {
+            "id": 3,
+            "giaTri": 200
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 260,
+        "capYeuCau": 122,
+        "hoiChieuMs": 9600,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 33600
+          },
+          {
+            "id": 3,
+            "giaTri": 221
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 280,
+        "capYeuCau": 123,
+        "hoiChieuMs": 8800,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 36200
+          },
+          {
+            "id": 3,
+            "giaTri": 242
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      },
+      {
+        "mp": 300,
+        "capYeuCau": 124,
+        "hoiChieuMs": 8000,
+        "thoiGianBuffMs": 0,
+        "phanTramHieuUngPhu": 0,
+        "thoiGianHieuUngPhu": 0,
+        "congHp": 0,
+        "congMp": 0,
+        "chiSo": [
+          {
+            "id": 10,
+            "giaTri": 39000
+          },
+          {
+            "id": 3,
+            "giaTri": 263
+          }
+        ],
+        "soMucTieu": 60,
+        "tamLan": 140
+      }
+    ],
+    "thoiGianThiTrien": 0,
+    "kieuVe": 1
+  }
+]
