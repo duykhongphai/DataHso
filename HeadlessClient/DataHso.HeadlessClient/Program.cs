@@ -21,38 +21,55 @@ public static class Program
 
             var data = new DuLieuHso();
             BoXuat.NapCu(data, c.ThuMucRa);
-            var doc = new BoDocGoi(data, c.ThuMucRa);
 
-            await using var phien = new PhienHso();
-            phien.Nhan += doc.NhanAsync;
-            await phien.NoiAsync(mayChu.Host, mayChu.Port, het.Token);
-            await phien.DaBatTay.Task.WaitAsync(TimeSpan.FromSeconds(30), het.Token);
+            // Mỗi lần thử dùng một kết nối mới. Với device > 0, server có thể chỉ trả bảng nền rồi
+            // chuyển sang luồng cập nhật dữ liệu (-54/-57) mà không gửi danh sách nhân vật, nên
+            // lần cuối dùng đúng cấu hình đăng nhập của ToolHSO (zoom 1, device 0).
+            (sbyte Zoom, sbyte ThietBi, sbyte InfoLogin, string MoTa)[] cachThu =
+            [
+                (4, 4, 1, "client PC, xin bảng nền"),
+                (4, 4, 0, "client PC, dùng cache bảng nền"),
+                (1, 0, 1, "zoom 1, device 0")
+            ];
 
-            // Lần đầu xin các bảng nền nếu máy chưa có cache client. Server HSO dừng ở đây sau
-            // khi trả command 25/26; client gốc đổi indexInfoLogin về 0 rồi người chơi đăng nhập
-            // lại. Headless client tự làm luôn bước đăng nhập thứ hai bên dưới.
-            await GuiDangNhapAsync(phien, c, 1, het.Token);
-            await phien.GuiAsync(61, [], het.Token); // tên vị trí, vật phẩm nhiệm vụ, bảng đập đồ
-
-            var bangNen = Task.WhenAll(doc.CoVatPham.Task, doc.CoQuai.Task);
-            var dauTien = await Task.WhenAny(bangNen, doc.DangNhapHong.Task, Task.Delay(90_000, het.Token));
-            if (dauTien == doc.DangNhapHong.Task)
-                throw new InvalidOperationException(data.LoiDangNhap ?? "Đăng nhập thất bại.");
-            if (!bangNen.IsCompleted)
-                throw new TimeoutException("Server chưa trả các bảng vật phẩm/quái trong 90 giây.");
-
-            if (!doc.CoNhanVat.Task.IsCompleted)
+            PhienHso? phien = null;
+            BoDocGoi? doc = null;
+            for (var i = 0; i < cachThu.Length && phien == null; i++)
             {
-                Console.WriteLine("Đã nhận bảng nền; đăng nhập tiếp với cache hiện hành để lấy danh sách nhân vật...");
-                BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
-                await GuiDangNhapAsync(phien, c, 0, het.Token);
-                dauTien = await Task.WhenAny(doc.CoNhanVat.Task, doc.DangNhapHong.Task, Task.Delay(90_000, het.Token));
-                if (dauTien == doc.DangNhapHong.Task)
-                    throw new InvalidOperationException(data.LoiDangNhap ?? "Đăng nhập thất bại.");
-            }
-            if (!doc.CoNhanVat.Task.IsCompleted)
-                throw new TimeoutException("Server chưa trả danh sách nhân vật trong 90 giây.");
+                var (zoom, thietBi, infoLogin, moTa) = cachThu[i];
+                if (i > 0) await Task.Delay(5_000, het.Token); // để server nhả phiên cũ của tài khoản
+                Console.WriteLine($"Đăng nhập lần {i + 1}/{cachThu.Length} ({moTa})...");
 
+                var thuDoc = new BoDocGoi(data, c.ThuMucRa);
+                var thuPhien = new PhienHso();
+                thuPhien.Nhan += thuDoc.NhanAsync;
+                string? lyDo;
+                try
+                {
+                    lyDo = await ThuDangNhapAsync(thuPhien, thuDoc, mayChu, c, zoom, thietBi, infoLogin, het.Token);
+                }
+                catch (Exception e) when (e is not OperationCanceledException)
+                {
+                    lyDo = e.Message;
+                }
+
+                if (lyDo == null)
+                {
+                    phien = thuPhien;
+                    doc = thuDoc;
+                    break;
+                }
+
+                Console.WriteLine($"  không lấy được danh sách nhân vật: {lyDo}");
+                Console.WriteLine($"  gói đã nhận: {thuDoc.TomTatGoi()}");
+                BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat); // giữ lại bảng nền đã nhận
+                await thuPhien.DisposeAsync();
+            }
+
+            if (phien == null || doc == null)
+                throw new TimeoutException($"Đã thử {cachThu.Length} cách đăng nhập nhưng server không trả danh sách nhân vật.");
+
+            await using var _ = phien;
             BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
             NhanVat? nhanVat;
             lock (data.Khoa)
@@ -124,13 +141,38 @@ public static class Program
                ?? throw new InvalidOperationException($"Không tìm thấy máy chủ '{c.MayChu}'. Có: {string.Join(", ", ds.Select(x => x.Ten))}");
     }
 
-    private static Task GuiDangNhapAsync(PhienHso phien, CauHinh c, sbyte indexInfoLogin, CancellationToken ct)
+    /// <summary>Nối, bắt tay, đăng nhập và chờ danh sách nhân vật. Trả null nếu thành công, ngược lại là lý do.</summary>
+    private static async Task<string?> ThuDangNhapAsync(PhienHso phien, BoDocGoi doc, MayChu mayChu, CauHinh c,
+        sbyte zoom, sbyte thietBi, sbyte infoLogin, CancellationToken ct)
+    {
+        await phien.NoiAsync(mayChu.Host, mayChu.Port, ct);
+        await phien.DaBatTay.Task.WaitAsync(TimeSpan.FromSeconds(30), ct);
+        await GuiDangNhapAsync(phien, c, zoom, thietBi, infoLogin, ct);
+        await phien.GuiAsync(61, [], ct); // tên vị trí, vật phẩm nhiệm vụ, bảng đập đồ
+
+        var nhanVat = doc.CoNhanVat.Task;
+        var bangNen = Task.WhenAll(doc.CoVatPham.Task, doc.CoQuai.Task);
+        var dung = new[] { nhanVat, doc.DangNhapHong.Task, phien.DaNgat.Task };
+
+        var xong = await Task.WhenAny([.. dung, bangNen, Task.Delay(90_000, ct)]);
+        // Bảng nền thường đến trước danh sách nhân vật; cho thêm một khoảng ngắn rồi mới bỏ cuộc.
+        if (xong == bangNen && !nhanVat.IsCompleted)
+            xong = await Task.WhenAny([.. dung, Task.Delay(30_000, ct)]);
+
+        if (nhanVat.IsCompleted) return null;
+        if (doc.DangNhapHong.Task.IsCompleted) return doc.LoiDangNhap ?? "đăng nhập thất bại";
+        if (phien.DaNgat.Task.IsCompleted) return "máy chủ ngắt kết nối";
+        return bangNen.IsCompleted ? "đã nhận bảng nền nhưng hết thời gian chờ" : "hết thời gian chờ";
+    }
+
+    private static Task GuiDangNhapAsync(PhienHso phien, CauHinh c, sbyte zoom, sbyte thietBi, sbyte indexInfoLogin,
+        CancellationToken ct)
     {
         var goi = new BoGhi()
             .Utf(c.TaiKhoan).Utf(c.MatKhau).Utf(c.PhienBan)
             .Utf("0").Utf("0").Utf("0")
-            .Byte(4)       // zoomLevel: lấy ảnh mức cao nhất của client PC
-            .Byte(4)       // TemMidlet.DIVICE của bản Windows
+            .Byte(zoom)    // mGraphics.zoomLevel: 4 lấy ảnh lớn nhất của client PC
+            .Byte(thietBi) // TemMidlet.DIVICE: 4 là bản Windows
             .Int(-1)       // chưa chọn characterId
             .Byte(-1)      // area
             .Byte(1)       // Main.isPC

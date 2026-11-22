@@ -42,7 +42,9 @@ Workflow hiện chạy tuần tự các nguồn sau bằng cùng tài khoản tr
 - Kì Lân (`hs6`), slot 0 (Băng).
 - Thiên Hà (`hs7`), slot 0 (Điện).
 
-Mỗi lượt được ngắt kết nối hoàn toàn trước khi chuyển sang slot hoặc server tiếp theo. Các
+Mỗi lượt được ngắt kết nối hoàn toàn trước khi chuyển sang slot hoặc server tiếp theo. Nhân vật
+lỗi được thử lại một lần rồi bỏ qua, không chặn các nhân vật còn lại; client tự thử ba cấu hình
+đăng nhập trên kết nối mới nếu server không trả danh sách nhân vật. Các
 repository variables tùy chọn:
 
 - `HSO_THUMUC`: thư mục kho dùng chung; mặc định `DuLieu`.

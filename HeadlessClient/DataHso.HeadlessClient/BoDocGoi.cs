@@ -18,8 +18,18 @@ public sealed class BoDocGoi
         this.thuMuc = thuMuc;
     }
 
+    private readonly System.Collections.Concurrent.ConcurrentDictionary<sbyte, int> demGoi = new();
+
+    public string? LoiDangNhap => data.LoiDangNhap;
+
+    /// <summary>Tóm tắt các command đã nhận, dùng để chẩn đoán khi server không trả gói mong đợi.</summary>
+    public string TomTatGoi() => demGoi.IsEmpty
+        ? "chưa nhận gói nào"
+        : string.Join(", ", demGoi.OrderBy(x => x.Key).Select(x => x.Value == 1 ? $"{x.Key}" : $"{x.Key}×{x.Value}"));
+
     public Task NhanAsync(GoiTin goi)
     {
+        demGoi.AddOrUpdate(goi.Lenh, 1, (_, n) => n + 1);
         if (GoiCanGiu.Contains(goi.Lenh)) LuuGoiTho(goi);
         try
         {

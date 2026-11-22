@@ -69,17 +69,42 @@ jobs:
             "Thiên Hà (Điện)|hs7.teamobi.com|0"
           )
 
+          # Một nhân vật lỗi không được làm mất dữ liệu của các nhân vật còn lại: thử lại một
+          # lần, rồi chuyển sang nguồn kế tiếp. Chỉ báo lỗi khi không nguồn nào thành công.
+          ok=0
+          failed=()
           for target in "${targets[@]}"; do
             IFS='|' read -r name host slot <<< "$target"
             echo "::group::$name - slot $slot"
-            timeout -k 15 2400 ./may/DataHso.HeadlessClient \
-              --maychu "$name" \
-              --host "$host" \
-              --port 19129 \
-              --nhan-vat "$slot"
+            done_target=0
+            for lan in 1 2; do
+              if timeout -k 15 2400 ./may/DataHso.HeadlessClient \
+                --maychu "$name" \
+                --host "$host" \
+                --port 19129 \
+                --nhan-vat "$slot"; then
+                done_target=1
+                break
+              else
+                code=$?
+                echo "::warning::$name slot $slot lượt $lan lỗi (exit $code)"
+                if [ "$lan" -lt 2 ]; then sleep 20; fi
+              fi
+            done
             echo "::endgroup::"
+            if [ "$done_target" -eq 1 ]; then ok=$((ok + 1)); else failed+=("$name slot $slot"); fi
             sleep 3
           done
+
+          echo "Thành công: $ok/${#targets[@]}"
+          if [ "${#failed[@]}" -gt 0 ]; then
+            echo "::warning::Không lấy được: ${failed[*]}"
+          fi
+          if [ "$ok" -eq 0 ]; then
+            # Vẫn commit các bảng nền đã nhận được; job bị đánh lỗi ở bước cuối.
+            echo "::error::Không nhân vật nào lấy được đầy đủ dữ liệu."
+            echo "HSO_TAT_CA_LOI=1" >> "$GITHUB_ENV"
+          fi
 
       - name: Dọn tệp dựng
         if: always()
@@ -138,3 +163,8 @@ jobs:
           done
           exit 1
 
+      - name: Báo lỗi nếu không nhân vật nào thành công
+        if: env.HSO_TAT_CA_LOI == '1'
+        run: |
+          echo "::error::Đã lưu phần dữ liệu nhận được, nhưng không nhân vật nào hoàn tất. Xem log bước đăng nhập."
+          exit 1
