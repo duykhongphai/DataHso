@@ -28,13 +28,28 @@ public static class Program
             await phien.NoiAsync(mayChu.Host, mayChu.Port, het.Token);
             await phien.DaBatTay.Task.WaitAsync(TimeSpan.FromSeconds(30), het.Token);
 
-            await GuiDangNhapAsync(phien, c, het.Token);
+            // Lần đầu xin các bảng nền nếu máy chưa có cache client. Server HSO dừng ở đây sau
+            // khi trả command 25/26; client gốc đổi indexInfoLogin về 0 rồi người chơi đăng nhập
+            // lại. Headless client tự làm luôn bước đăng nhập thứ hai bên dưới.
+            await GuiDangNhapAsync(phien, c, 1, het.Token);
             await phien.GuiAsync(61, [], het.Token); // tên vị trí, vật phẩm nhiệm vụ, bảng đập đồ
 
-            var coBan = Task.WhenAll(doc.CoNhanVat.Task, doc.CoVatPham.Task, doc.CoQuai.Task);
-            var dauTien = await Task.WhenAny(coBan, doc.DangNhapHong.Task, Task.Delay(90_000, het.Token));
+            var bangNen = Task.WhenAll(doc.CoVatPham.Task, doc.CoQuai.Task);
+            var dauTien = await Task.WhenAny(bangNen, doc.DangNhapHong.Task, Task.Delay(90_000, het.Token));
             if (dauTien == doc.DangNhapHong.Task)
                 throw new InvalidOperationException(data.LoiDangNhap ?? "Đăng nhập thất bại.");
+            if (!bangNen.IsCompleted)
+                throw new TimeoutException("Server chưa trả các bảng vật phẩm/quái trong 90 giây.");
+
+            if (!doc.CoNhanVat.Task.IsCompleted)
+            {
+                Console.WriteLine("Đã nhận bảng nền; đăng nhập tiếp với cache hiện hành để lấy danh sách nhân vật...");
+                BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
+                await GuiDangNhapAsync(phien, c, 0, het.Token);
+                dauTien = await Task.WhenAny(doc.CoNhanVat.Task, doc.DangNhapHong.Task, Task.Delay(90_000, het.Token));
+                if (dauTien == doc.DangNhapHong.Task)
+                    throw new InvalidOperationException(data.LoiDangNhap ?? "Đăng nhập thất bại.");
+            }
             if (!doc.CoNhanVat.Task.IsCompleted)
                 throw new TimeoutException("Server chưa trả danh sách nhân vật trong 90 giây.");
 
@@ -109,7 +124,7 @@ public static class Program
                ?? throw new InvalidOperationException($"Không tìm thấy máy chủ '{c.MayChu}'. Có: {string.Join(", ", ds.Select(x => x.Ten))}");
     }
 
-    private static Task GuiDangNhapAsync(PhienHso phien, CauHinh c, CancellationToken ct)
+    private static Task GuiDangNhapAsync(PhienHso phien, CauHinh c, sbyte indexInfoLogin, CancellationToken ct)
     {
         var goi = new BoGhi()
             .Utf(c.TaiKhoan).Utf(c.MatKhau).Utf(c.PhienBan)
@@ -120,7 +135,7 @@ public static class Program
             .Byte(-1)      // area
             .Byte(1)       // Main.isPC
             .Byte(-1)      // IndexRes
-            .Byte(1)       // indexInfoLogin
+            .Byte(indexInfoLogin)
             .Byte(0)
             .Short(-1)     // IndexCharPar, server sẽ trả bản hiện hành
             .Utf("")

@@ -4,6 +4,13 @@ Bộ lấy dữ liệu tự động từ máy chủ Hiệp Sĩ Online, viết l�
 `hso_v403` (phiên bản game `4.0.3`). Chương trình chạy headless, không cần mở Unity hay điều
 khiển cửa sổ game.
 
+Trang tra cứu: **https://duykhongphai.github.io/DataHso/**
+
+Giao diện web đọc trực tiếp kho `TeaMobi/DuLieu`, hỗ trợ tìm kiếm, sắp xếp, phân trang, xem
+chi tiết, chép ID/JSON và mở JSON gốc trên cả máy tính lẫn điện thoại. Khi lượt lấy dữ liệu đầu
+tiên chưa hoàn tất, trang hiển thị trạng thái chờ và đường dẫn tới GitHub Actions thay vì báo lỗi
+trống.
+
 ## Dữ liệu hiện lấy được
 
 - Bảng potion, nguyên liệu, thuộc tính/option vật phẩm.

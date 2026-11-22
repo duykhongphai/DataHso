@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T20:15:04.3088555+07:00",
+  "title": "Design System: DataHso",
+  "extensions": {
+    "colorMeta": {
+      "route-yellow": {
+        "role": "primary",
+        "displayName": "Guild Route Yellow",
+        "canonical": "#f4c430",
+        "tonalRamp": ["#2d2200", "#5b4600", "#8d6d00", "#ba920d", "#dba900", "#f4c430", "#f9dc78", "#fff4c4"]
+      },
+      "route-yellow-strong": {
+        "role": "primary",
+        "displayName": "Deep Route Ochre",
+        "canonical": "#dba900",
+        "tonalRamp": ["#2b2100", "#564200", "#826400", "#aa8300", "#d0a000", "#e6bd3c", "#f2d881", "#fff1c1"]
+      },
+      "soot-ink": {
+        "role": "neutral",
+        "displayName": "Soot Ink",
+        "canonical": "#151618",
+        "tonalRamp": ["#151618", "#282a2d", "#3d4044", "#565a5f", "#73777d", "#969aa0", "#c0c3c7", "#eceef0"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#43474d",
+        "tonalRamp": ["#17191c", "#2b2e33", "#43474d", "#5d6269", "#7a8088", "#9ba0a7", "#c2c5c9", "#edeef0"]
+      },
+      "muted-text": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#56616e",
+        "tonalRamp": ["#18202a", "#303b47", "#485563", "#62707e", "#7e8a96", "#9fa8b1", "#c5cbd0", "#edf0f2"]
+      },
+      "stone-ground": {
+        "role": "neutral",
+        "displayName": "Cool Stone Ground",
+        "canonical": "#e9edf1",
+        "tonalRamp": ["#20262c", "#3d454d", "#5b6670", "#7c8791", "#9da7b0", "#bec6cd", "#dce1e6", "#f1f4f6"]
+      },
+      "paper-surface": {
+        "role": "neutral",
+        "displayName": "Paper Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#262626", "#484848", "#6b6b6b", "#8f8f8f", "#b2b2b2", "#d0d0d0", "#e9e9e9", "#ffffff"]
+      },
+      "stone-surface": {
+        "role": "neutral",
+        "displayName": "Soft Stone Surface",
+        "canonical": "#f3f5f7",
+        "tonalRamp": ["#22272c", "#42484e", "#626a72", "#858d95", "#a8afb6", "#c8cdd2", "#e4e7ea", "#f5f7f8"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Structural Hairline",
+        "canonical": "#c6cdd5",
+        "tonalRamp": ["#1f252b", "#3b444c", "#58636d", "#76838e", "#95a1ac", "#b2bbc4", "#d1d7dc", "#eff2f4"]
+      },
+      "hairline-soft": {
+        "role": "neutral",
+        "displayName": "Soft Hairline",
+        "canonical": "#e0e5ea",
+        "tonalRamp": ["#20262b", "#3e464d", "#5d666f", "#7d8790", "#9da7af", "#bcc4cb", "#d9dee2", "#f1f3f5"]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Failure Red",
+        "canonical": "#a52b25",
+        "tonalRamp": ["#32100e", "#5a1916", "#83231e", "#a52b25", "#c94a43", "#df7772", "#efa9a5", "#fbdedc"]
+      },
+      "success": {
+        "role": "tertiary",
+        "displayName": "Ready Green",
+        "canonical": "#167042",
+        "tonalRamp": ["#082719", "#0d4328", "#125f37", "#167042", "#32915d", "#65b184", "#9bd1b2", "#d9eee3"]
+      },
+      "focus-blue": {
+        "role": "secondary",
+        "displayName": "Focus Blue",
+        "canonical": "#175b9c",
+        "tonalRamp": ["#0a2036", "#0f3a64", "#175b9c", "#2478be", "#5196d2", "#82b6e2", "#b5d6ef", "#e2f1fa"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Catalog Display", "purpose": "One-per-view category headings." },
+      "title": { "displayName": "Record Title", "purpose": "Compact record names inside cards." },
+      "body": { "displayName": "Interface Body", "purpose": "Vietnamese prose and default controls." },
+      "label": { "displayName": "Compact Label", "purpose": "Navigation, tags, field labels, and metadata." },
+      "data": { "displayName": "Data Mono", "purpose": "IDs, route codes, counts, metrics, and structured values." }
+    },
+    "shadows": [
+      { "name": "surface-small", "value": "0 2px 4px rgba(21, 22, 24, .08)", "purpose": "Resting cards, tables, and the control deck." },
+      { "name": "card-hover", "value": "0 8px 22px rgba(21, 22, 24, .11)", "purpose": "Record-card hover paired with a 2px lift." },
+      { "name": "card-selected", "value": "0 0 0 3px #f4c430, 0 2px 4px rgba(21, 22, 24, .08)", "purpose": "Selected record halo and resting depth." },
+      { "name": "panel", "value": "-12px 0 36px rgba(21, 22, 24, .18)", "purpose": "Desktop detail drawer crossing the page plane." },
+      { "name": "toast", "value": "0 8px 24px rgba(0, 0, 0, .2)", "purpose": "Transient copy feedback." }
+    ],
+    "motion": [
+      { "name": "ease-route", "value": "cubic-bezier(.2,.8,.2,1)", "purpose": "Route swaps, card lift, and panel movement." },
+      { "name": "route-swap", "value": "280ms cubic-bezier(.2,.8,.2,1)", "purpose": "Split-flap-style category code, name, and heading transition." },
+      { "name": "card-state", "value": "160ms cubic-bezier(.2,.8,.2,1)", "purpose": "Record-card hover lift, border, and shadow." },
+      { "name": "panel-enter", "value": "220ms cubic-bezier(.2,.8,.2,1)", "purpose": "Right drawer on desktop and bottom sheet on mobile." },
+      { "name": "toast-enter", "value": "180ms ease", "purpose": "Copy-feedback fade and 14px rise." },
+      { "name": "skeleton-breathe", "value": "1.1s ease-in-out infinite alternate", "purpose": "Loading placeholders, with 160ms alternating delay." },
+      { "name": "reduced-motion", "value": "0.01ms, one iteration", "purpose": "Collapse animations and transitions when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "route-compact", "value": "900px" },
+      { "name": "mobile", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Route Board Navigation",
+      "kind": "nav",
+      "refersTo": "route-selected",
+      "description": "Yellow destination strip with explicit black selected segment.",
+      "html": "<nav class=\"ds-route-board\" aria-label=\"Danh mục dữ liệu\"><button class=\"ds-route-tab\" type=\"button\" aria-pressed=\"false\">Vật phẩm</button><button class=\"ds-route-tab\" type=\"button\" aria-pressed=\"true\">Trang bị</button><button class=\"ds-route-tab\" type=\"button\" aria-pressed=\"false\">Quái</button></nav>",
+      "css": ".ds-route-board{display:flex;overflow-x:auto;background:var(--yellow,#f4c430);border-block:1px solid var(--ink,#151618)}.ds-route-tab{flex:none;min-height:55px;padding:0 16px;border:0;border-right:1px solid rgba(21,22,24,.22);background:transparent;color:var(--ink,#151618);font:680 13px/1 system-ui,-apple-system,'Segoe UI',sans-serif;cursor:pointer;white-space:nowrap}.ds-route-tab:hover{background:rgba(255,255,255,.3)}.ds-route-tab[aria-pressed='true']{background:var(--ink,#151618);color:#fff}.ds-route-tab:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:-4px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "field-search",
+      "description": "Soft-stone search well with leading icon and monospace shortcut key.",
+      "html": "<label class=\"ds-search\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m16.2 16.2 4 4\"/></svg><span class=\"ds-visually-hidden\">Tìm dữ liệu</span><input type=\"search\" placeholder=\"Tìm theo tên, mô tả hoặc ID…\"><kbd>/</kbd></label>",
+      "css": ".ds-search{position:relative;display:block;max-width:560px}.ds-search svg{position:absolute;left:12px;top:50%;width:18px;height:18px;transform:translateY(-50%);fill:none;stroke:var(--muted,#56616e);stroke-width:1.9;stroke-linecap:round}.ds-search input{box-sizing:border-box;width:100%;height:40px;padding:0 44px 0 40px;color:var(--ink,#151618);background:var(--surface-soft,#f3f5f7);border:1px solid var(--line,#c6cdd5);border-radius:9px;font:15px/1.5 system-ui,-apple-system,'Segoe UI',sans-serif}.ds-search input:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}.ds-search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);min-width:24px;padding:3px 6px;text-align:center;color:var(--muted,#56616e);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:5px;font:11px/1.2 ui-monospace,'Cascadia Mono',Consolas,monospace}.ds-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact soot action for retry, close, and copy commands.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Chép JSON</button>",
+      "css": ".ds-button-primary{min-height:42px;display:inline-flex;align-items:center;justify-content:center;padding:0 13px;color:#fff;background:var(--ink,#151618);border:1px solid var(--ink,#151618);border-radius:9px;font:700 15px/1 system-ui,-apple-system,'Segoe UI',sans-serif;cursor:pointer}.ds-button-primary:hover{background:var(--ink-soft,#43474d)}.ds-button-primary:active{transform:translateY(1px)}.ds-button-primary:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}"
+    },
+    {
+      "name": "Raw JSON Link",
+      "kind": "button",
+      "description": "Paper secondary action for opening the source data.",
+      "html": "<a class=\"ds-button-secondary\" href=\"#\">JSON gốc <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button-secondary{height:40px;display:inline-flex;align-items:center;gap:7px;padding:0 12px;color:var(--ink,#151618);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:9px;text-decoration:none;font:650 13px/1 system-ui,-apple-system,'Segoe UI',sans-serif}.ds-button-secondary:hover{border-color:var(--ink,#151618)}.ds-button-secondary:active{background:var(--surface-soft,#f3f5f7)}.ds-button-secondary:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}"
+    },
+    {
+      "name": "Record Card",
+      "kind": "card",
+      "refersTo": "card-record",
+      "description": "Dense catalog record with pixel-art well, tags, copyable ID, and metric footer.",
+      "html": "<article class=\"ds-record-card\" tabindex=\"0\" aria-selected=\"false\"><div class=\"ds-card-main\"><span class=\"ds-icon-well\" aria-hidden=\"true\"></span><div><h3>Kiếm hiệp sĩ</h3><p>Mẫu trang bị và chỉ số cơ bản.</p><span class=\"ds-tag\">Chiến binh</span></div></div><footer><button class=\"ds-id-chip\" type=\"button\">ID 1042</button><b>3 CS</b></footer></article>",
+      "css": ".ds-record-card{min-width:0;overflow:hidden;color:var(--ink,#151618);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:14px;box-shadow:0 2px 4px rgba(21,22,24,.08);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;transition:transform .16s cubic-bezier(.2,.8,.2,1),border-color .16s,box-shadow .16s}.ds-record-card:hover{transform:translateY(-2px);border-color:#707983;box-shadow:0 8px 22px rgba(21,22,24,.11)}.ds-record-card[aria-selected='true']{border-color:var(--ink,#151618);box-shadow:0 0 0 3px var(--yellow,#f4c430),0 2px 4px rgba(21,22,24,.08)}.ds-record-card:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}.ds-card-main{display:flex;gap:13px;min-height:88px;padding:14px}.ds-icon-well{width:82px;height:82px;flex:none;background:var(--surface-soft,#f3f5f7);border:1px solid var(--line-soft,#e0e5ea);border-radius:12px}.ds-card-main h3{margin:1px 0 0;font-size:16px;line-height:1.28;letter-spacing:-.015em}.ds-card-main p{margin:5px 0 10px;color:var(--muted,#56616e);font-size:12px;line-height:1.45}.ds-tag{display:inline-flex;padding:3px 7px;color:var(--ink-soft,#43474d);background:var(--surface-soft,#f3f5f7);border:1px solid var(--line-soft,#e0e5ea);border-radius:6px;font-size:11px;font-weight:650}.ds-record-card footer{min-height:43px;display:flex;align-items:center;gap:8px;padding:9px 13px;background:var(--surface-soft,#f3f5f7);border-top:1px solid var(--line-soft,#e0e5ea)}.ds-record-card footer b{margin-left:auto;color:var(--ink-soft,#43474d);font:650 12px ui-monospace,'Cascadia Mono',Consolas,monospace}.ds-id-chip{padding:4px 7px;color:var(--ink-soft,#43474d);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:6px;font:650 12px/1.25 ui-monospace,'Cascadia Mono',Consolas,monospace;cursor:pointer}"
+    },
+    {
+      "name": "ID Chip",
+      "kind": "chip",
+      "refersTo": "chip-id",
+      "description": "Copyable machine identifier kept visually distinct from prose labels.",
+      "html": "<button class=\"ds-id-chip-standalone\" type=\"button\"><span aria-hidden=\"true\">▣</span> ID 1042</button>",
+      "css": ".ds-id-chip-standalone{display:inline-flex;align-items:center;gap:6px;padding:4px 7px;color:var(--ink-soft,#43474d);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:6px;font:650 12px/1.25 ui-monospace,'Cascadia Mono',Consolas,monospace;cursor:pointer}.ds-id-chip-standalone:hover{border-color:var(--ink,#151618)}.ds-id-chip-standalone:active{background:var(--surface-soft,#f3f5f7)}.ds-id-chip-standalone:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}"
+    },
+    {
+      "name": "Selected Page",
+      "kind": "button",
+      "description": "Pagination control whose selected state reuses the route-board signal.",
+      "html": "<nav class=\"ds-pagination\" aria-label=\"Phân trang\"><button type=\"button\">1</button><button type=\"button\" aria-current=\"page\">2</button><button type=\"button\">3</button></nav>",
+      "css": ".ds-pagination{display:flex;gap:6px}.ds-pagination button{min-width:38px;height:38px;padding:0 10px;color:var(--ink,#151618);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:8px;font:650 15px/1 system-ui,-apple-system,'Segoe UI',sans-serif;cursor:pointer}.ds-pagination button:hover{border-color:var(--ink,#151618)}.ds-pagination button[aria-current='page']{background:var(--yellow,#f4c430);border-color:var(--ink,#151618)}.ds-pagination button:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}"
+    },
+    {
+      "name": "Empty State",
+      "kind": "custom",
+      "description": "Honest waiting or error board with yellow route code and direct recovery action.",
+      "html": "<section class=\"ds-empty\"><span class=\"ds-empty-code\">CHỜ</span><h2>Dữ liệu đang được lấy lần đầu</h2><p>Workflow đang đăng nhập lần lượt các nhân vật và sẽ tự đưa dữ liệu lên đây.</p><button type=\"button\">Thử lại</button></section>",
+      "css": ".ds-empty{padding:48px 20px;text-align:center;color:var(--ink,#151618);background:#fff;border:1px solid var(--line,#c6cdd5);border-radius:14px;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}.ds-empty-code{display:inline-grid;place-items:center;min-width:76px;height:52px;margin-bottom:18px;background:var(--yellow,#f4c430);border:1px solid var(--ink,#151618);border-radius:8px;font:800 18px ui-monospace,'Cascadia Mono',Consolas,monospace}.ds-empty h2{margin:0;font-size:22px}.ds-empty p{max-width:520px;margin:8px auto 20px;color:var(--muted,#56616e)}.ds-empty button{min-height:39px;padding:0 13px;color:#fff;background:var(--ink,#151618);border:1px solid var(--ink,#151618);border-radius:8px;font-weight:650;cursor:pointer}.ds-empty button:hover{background:var(--ink-soft,#43474d)}.ds-empty button:focus-visible{outline:3px solid var(--blue,#175b9c);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Guild Route Board",
+    "overview": "DataHso feels like a compact route board installed at a guild archive: direct, sturdy, and built for repeated lookup. Saturated yellow gives destinations and selection an unmistakable signal; soot-black type, cool stone surroundings, white work surfaces, and hairline rules keep exact data ahead of ornament.\n\nThis is an operating interface, not a fantasy landing page or a generic analytics dashboard. Information density is deliberate, the first real records dominate the view, and identifiers remain visibly machine-readable. Pixel game art is contained and respected rather than enlarged into decoration.",
+    "keyCharacteristics": [
+      "A yellow destination band acts as the signature wayfinding device.",
+      "Cool stone layers and white paper surfaces organize dense catalog data.",
+      "System sans typography carries prose; monospace carries IDs, codes, counts, and raw values.",
+      "Compact controls, 12–14px containers, and hairline borders create a precise instrument.",
+      "Motion confirms a route or panel transition without delaying lookup."
+    ],
+    "rules": [
+      { "name": "The Yellow Means Direction Rule", "body": "Use guild yellow for route-finding, selected destinations, and explicit state confirmation; do not wash ordinary cards or large content regions in it.", "section": "colors" },
+      { "name": "The Semantic Colors Stay Semantic Rule", "body": "Red, green, and focus blue communicate error, readiness, and keyboard focus respectively; they are not alternative brand accents.", "section": "colors" },
+      { "name": "The Data Has Its Own Voice Rule", "body": "Use monospace only where a value is copied, counted, coded, or structurally inspected; names and descriptions stay in system sans.", "section": "typography" },
+      { "name": "The Records First Rule", "body": "Do not insert a marketing hero between the route band, controls, and real records.", "section": "layout" },
+      { "name": "The Horizontal Route Rule", "body": "On constrained widths, preserve every destination in a touch- and keyboard-scrollable strip instead of collapsing routes into an opaque menu.", "section": "layout" },
+      { "name": "The Structural Elevation Rule", "body": "Use low shadow for grouping, stronger shadow for a surface that crosses the page plane, and never add decorative glow.", "section": "elevation" },
+      { "name": "The Selected Card Rule", "body": "Selection is a 3px yellow halo plus an ink border; elevation alone must not carry selected state.", "section": "elevation" },
+      { "name": "The No Pills Rule", "body": "Reserve circles for status; labels, actions, filters, and routes use compact rectangular silhouettes.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use yellow to make destinations and selected states legible at a glance.",
+      "Do keep real records immediately below a compact control deck.",
+      "Do pair tonal layering with visible hairline borders so dense data remains structured without heavy shadow.",
+      "Do use monospace for IDs, codes, counts, metrics, and raw structured values.",
+      "Do preserve keyboard navigation, a 3px focus-blue outline, focus restoration, live status announcements, and reduced-motion behavior.",
+      "Do turn the right drawer into a bottom sheet at the mobile breakpoint."
+    ],
+    "donts": [
+      "Don't introduce a decorative fantasy hero, parchment textures, ornamental medieval type, or generic dashboard chrome.",
+      "Don't use yellow as an all-purpose card background or red/green/blue as decorative accents.",
+      "Don't round controls into pills or erase the structural hairlines.",
+      "Don't smooth or upscale pixel game art beyond its contained media well.",
+      "Don't hide missing data or fabricate game values; use the established loading, waiting, empty, and error states.",
+      "Don't depend on motion alone to communicate route change, selection, loading, or panel state."
+    ]
+  }
+}

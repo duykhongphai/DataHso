@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-22T13:39:06.033Z",
+        "reason": "Claude triage: only hits are full-bleed .brand-row and .route-band; .shell supplies the 20px viewport gutter and route tabs intentionally fill band height per DESIGN.md"
+      }
+    ]
+  }
+}
