@@ -118,6 +118,19 @@
   },
   {
     "trangThai": 0,
+    "id": 1628,
+    "chinh": false,
+    "ten": "NVTT: Th\u1EC3 hi\u1EC7n",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 31,
+    "loiThoai": "1 PK th\u1EAFng v\u1EDBi 10 ng\u01B0\u1EDDi \u002B- 5 level",
+    "tomTat": "",
+    "huongDan": "PK th\u1EAFng v\u1EDBi 10 ng\u01B0\u1EDDi \u002B- 5 level",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
     "id": 1630,
     "chinh": false,
     "ten": "NVTT: Ch\u1EBF t\u1EA1o",
@@ -140,6 +153,19 @@
     "loiThoai": "1 \u0110\u1EADp 5 th\u00F9ng g\u1ED7",
     "tomTat": "",
     "huongDan": "\u0110\u1EADp 5 th\u00F9ng g\u1ED7",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1632,
+    "chinh": false,
+    "ten": "NVTT: \u0102n c\u01B0\u1EDBp",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 35,
+    "loiThoai": "1 C\u01B0\u1EDBp h\u00E0ng qu\u00FD t\u1EEB th\u01B0\u01A1ng nh\u00E2n v\u00E0 ho\u00E0n th\u00E0nh chuy\u1EBFn bu\u00F4n",
+    "tomTat": "",
+    "huongDan": "C\u01B0\u1EDBp h\u00E0ng qu\u00FD t\u1EEB th\u01B0\u01A1ng nh\u00E2n v\u00E0 ho\u00E0n th\u00E0nh chuy\u1EBFn bu\u00F4n",
     "mucTieu": []
   },
   {
