@@ -7,16 +7,16 @@
     "mat": 11,
     "dangMac": [
       {
+        "viTri": 10,
+        "mau": 0
+      },
+      {
         "viTri": 0,
         "mau": 3
       },
       {
         "viTri": 1,
         "mau": 3
-      },
-      {
-        "viTri": 8,
-        "mau": 0
       }
     ],
     "cap": 1,

@@ -1764,8 +1764,8 @@
     "id": 1,
     "idMini": 1,
     "ten": "L\u00E0ng S\u00F3i Tr\u1EAFng",
-    "xNhanVat": 21,
-    "yNhanVat": 6,
+    "xNhanVat": 14,
+    "yNhanVat": 16,
     "rong": 44,
     "cao": 30,
     "boTile": 0,
@@ -3118,15 +3118,15 @@
         "ten": "Khu v\u01B0\u1EDDn"
       }
     ],
-    "khu": 3,
+    "khu": 0,
     "loai": 0
   },
   {
     "id": 33,
     "idMini": 33,
     "ten": "Th\u00E0nh Ph\u1ED1 Kho B\u00E1u",
-    "xNhanVat": 25,
-    "yNhanVat": 25,
+    "xNhanVat": 18,
+    "yNhanVat": 3,
     "rong": 40,
     "cao": 32,
     "boTile": 6,

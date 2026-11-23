@@ -66,6 +66,19 @@
   },
   {
     "trangThai": 0,
+    "id": 1611,
+    "chinh": false,
+    "ten": "NVTT: Ph\u00F3 b\u1EA3n",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 30,
+    "loiThoai": "1 Ho\u00E0n th\u00E0nh 1 l\u1EA7n ph\u00F3 b\u1EA3n",
+    "tomTat": "",
+    "huongDan": "Ho\u00E0n th\u00E0nh 1 l\u1EA7n ph\u00F3 b\u1EA3n",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
     "id": 1613,
     "chinh": false,
     "ten": "NVTT: L\u00E0m gi\u00E0u",
@@ -101,6 +114,45 @@
     "loiThoai": "1 Ho\u00E0n th\u00E0nh 5 l\u1EA7n ph\u00F3 b\u1EA3n",
     "tomTat": "",
     "huongDan": "Ho\u00E0n th\u00E0nh 5 l\u1EA7n ph\u00F3 b\u1EA3n",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1630,
+    "chinh": false,
+    "ten": "NVTT: Ch\u1EBF t\u1EA1o",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 33,
+    "loiThoai": "1 Ch\u1EBF t\u1EA1o 1 m\u1EC1 \u0111ay b\u1EA5t k\u00EC",
+    "tomTat": "",
+    "huongDan": "Ch\u1EBF t\u1EA1o 1 m\u1EC1 \u0111ay b\u1EA5t k\u00EC",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1631,
+    "chinh": false,
+    "ten": "NVTT: S\u0103n kho b\u00E1u",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 34,
+    "loiThoai": "1 \u0110\u1EADp 5 th\u00F9ng g\u1ED7",
+    "tomTat": "",
+    "huongDan": "\u0110\u1EADp 5 th\u00F9ng g\u1ED7",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
+    "id": 1633,
+    "chinh": false,
+    "ten": "NVTT: Qu\u1EA5y ph\u00E1",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 4,
+    "loiThoai": "1 \u0110i \u0111\u1ED3 s\u00E1t 5 ng\u01B0\u1EDDi \u003E= level",
+    "tomTat": "",
+    "huongDan": "\u0110i \u0111\u1ED3 s\u00E1t 5 ng\u01B0\u1EDDi \u003E=level",
     "mucTieu": []
   },
   {
