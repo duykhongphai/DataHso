@@ -36,8 +36,8 @@ partially available during the first collection run.
 
 ## Capabilities and Constraints
 
-- Vietnamese interface with item, monster, skill, map, NPC, material, potion, option, quest, and
-  character views where corresponding JSON exists.
+- Vietnamese interface with equipment, potion, material, monster (animated sprite), and skill
+  (grouped by class) views where corresponding JSON exists.
 - Static GitHub Pages hosting; no server-side runtime and no frontend build step.
 - Images and JSON are repository-relative and may arrive after the site code is deployed.
 - Game data is shared across servers; configured characters are collection sources, not separate

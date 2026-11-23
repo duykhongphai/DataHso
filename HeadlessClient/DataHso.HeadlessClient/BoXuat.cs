@@ -20,7 +20,9 @@ public static class BoXuat
         Nap(Path.Combine(thuMuc, "Materials.json"), d.NguyenLieu, x => x.Id);
         Nap(Path.Combine(thuMuc, "EquipmentItems.json"), d.TrangBi, x => x.Id);
         Nap(Path.Combine(thuMuc, "Monsters.json"), d.Quai, x => x.Id);
-        Nap(Path.Combine(thuMuc, "Skills.json"), d.KyNang, x => x.Id);
+        Nap(Path.Combine(thuMuc, "Skills.json"), d.KyNang, x => $"{x.Lop}:{x.Id}");
+        // Bản cũ không ghi lớp nên các phái ghi đè lên nhau; bỏ đi để lượt mới lấy lại đúng lớp.
+        foreach (var khoa in d.KyNang.Where(x => x.Value.Lop < 0).Select(x => x.Key).ToList()) d.KyNang.Remove(khoa);
         Nap(Path.Combine(thuMuc, "Maps.json"), d.BanDo, x => x.Id);
         Nap(Path.Combine(thuMuc, "Npcs.json"), d.Npc, x => x.Id);
         Nap(Path.Combine(thuMuc, "Quests.json"), d.NhiemVu, x => $"{x.TrangThai}:{x.Chinh}:{x.Id}");
@@ -63,7 +65,7 @@ public static class BoXuat
             Tep(thuMuc, "Materials.json", d.NguyenLieu.Values.OrderBy(x => x.Id));
             Tep(thuMuc, "EquipmentItems.json", d.TrangBi.Values.OrderBy(x => x.Id));
             Tep(thuMuc, "Monsters.json", d.Quai.Values.OrderBy(x => x.Id));
-            Tep(thuMuc, "Skills.json", d.KyNang.Values.OrderBy(x => x.Id));
+            Tep(thuMuc, "Skills.json", d.KyNang.Values.OrderBy(x => x.Lop).ThenBy(x => x.Id));
             Tep(thuMuc, "Characters.json", d.NhanVat);
             Tep(thuMuc, "Maps.json", d.BanDo.Values.OrderBy(x => x.Id));
             Tep(thuMuc, "Npcs.json", d.Npc.Values.OrderBy(x => x.Id));

@@ -212,6 +212,7 @@ public sealed class BoDocGoi
             {
                 var k = new KyNang
                 {
+                    Lop = data.LopHienTai,
                     Id = r.Byte(),
                     IconId = r.Byte(),
                     Ten = r.Utf(),
@@ -247,7 +248,7 @@ public sealed class BoDocGoi
                 k.CacCap = cacCap;
                 k.ThoiGianThiTrien = r.Short();
                 k.KieuVe = r.Byte();
-                data.KyNang[k.Id] = k;
+                data.KyNang[$"{k.Lop}:{k.Id}"] = k;
             }
         Console.WriteLine($"  kỹ năng: {n}");
     }

@@ -18,8 +18,15 @@ const FIELD_LABELS = {
   soKhung: "Số khung", avatar: "Avatar", trangThai: "Trạng thái", chinh: "Nhiệm vụ chính",
   loaiMucTieu: "Loại mục tiêu", npcGiao: "NPC giao", npcTra: "NPC trả", tomTat: "Tóm tắt",
   huongDan: "Hướng dẫn", mucTieu: "Mục tiêu", mau: "Màu", laPhanTram: "Phần trăm",
-  dx: "Dịch X", dy: "Dịch Y", diem: "Điểm neo"
+  dx: "Dịch X", dy: "Dịch Y", diem: "Điểm neo", lop: "Phái"
 };
+
+const ICON_BOX = 66;        // cạnh lớn nhất của icon trong thẻ
+const ICON_BOX_LARGE = 88;  // trong panel chi tiết
+const SPRITE_BOX = 72;
+const SPRITE_BOX_LARGE = 92;
+const WALK_FRAMES = [0, 1, 2]; // mMon012 hướng 0 của client: 0,0,1,1,2,2
+const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
 
 const CATEGORIES = {
   equipment: {
@@ -50,65 +57,22 @@ const CATEGORIES = {
     code: "Q", title: "Quái", short: "Quái", file: "Monsters.json", layout: "cards",
     description: "Danh mục quái gồm cấp độ, HP và kiểu di chuyển.",
     icon: (x) => numberOrNull(x.id) === null ? null : Number(x.id) + 1000,
+    // Ảnh quái là sprite sheet: như MonsterWalk của client, ID ≤ 92 (hoặc kiểu 16) là dải dọc
+    // 5 khung, còn lại là lưới 2 cột × 3 hàng.
+    sprite: (x) => (Number(x.id) <= 92 || Number(x.kieuDiChuyen) === 16 ? "strip" : "grid"),
     detail: (x) => `Cấp ${formatNumber(x.cap)} · ${formatNumber(x.hp)} HP`,
     tags: (x) => [`cấp ${x.cap}`, `di chuyển ${x.kieuDiChuyen}`],
     metric: (x) => `${formatNumber(x.hp)} HP`
   },
   skills: {
-    code: "KN", title: "Kỹ năng", short: "Kỹ năng", file: "Skills.json", layout: "cards",
-    description: "Bộ kỹ năng thu được từ các nhân vật đã cấu hình, kèm toàn bộ cấp kỹ năng.",
+    code: "KN", title: "Kỹ năng", short: "Kỹ năng", file: "Skills.json", layout: "cards", pageSize: 200,
+    description: "Bộ kỹ năng của từng phái, lấy từ các nhân vật đã cấu hình, kèm toàn bộ cấp kỹ năng.",
     icon: (x) => numberOrNull(x.iconId) === null ? null : (Number(x.iconId) & 255) + 6000,
+    group: (x) => skillClass(x.lop),
+    groupOrder: (x) => (Number(x.lop) >= 0 ? Number(x.lop) : 99),
     detail: (x) => x.moTa || `${x.cacCap?.length || 0} cấp kỹ năng`,
-    tags: (x) => [`loại ${x.loai}`, `${x.cacCap?.length || 0} cấp`, `tầm ${x.tamDanh}`],
+    tags: (x) => [skillClass(x.lop), `loại ${x.loai}`, `${x.cacCap?.length || 0} cấp`, `tầm ${x.tamDanh}`],
     metric: (x) => x.cacCap?.length ? `${x.cacCap.length} cấp` : ""
-  },
-  maps: {
-    code: "BĐ", title: "Bản đồ", short: "Bản đồ", file: "Maps.json", layout: "cards",
-    description: "Các bản đồ nhân vật đã đi qua, kích thước, bộ tile, khu và lối ra.",
-    icon: () => null,
-    detail: (x) => x.loiRa?.length ? x.loiRa.map((y) => y.ten).filter(Boolean).join(" · ") : "Chưa ghi nhận lối ra",
-    tags: (x) => [`${x.rong || 0}×${x.cao || 0}`, `khu ${x.khu}`, `tile ${x.boTile}`],
-    metric: (x) => `${x.loiRa?.length || 0} lối ra`
-  },
-  npcs: {
-    code: "NPC", title: "NPC", short: "NPC", file: "Npcs.json", layout: "cards",
-    description: "NPC đã gặp trên bản đồ, lời thoại, mô tả và vị trí.",
-    icon: (x) => numberOrNull(x.anh) === null ? null : (Number(x.anh) & 255) + 3000,
-    detail: (x) => x.moTa || x.loiThoai || `Vị trí ${x.x}, ${x.y}`,
-    tags: (x) => [`ảnh ${x.anh}`, `${x.rong || 0}×${x.cao || 0}`, `${x.soKhung || 0} khung`],
-    metric: (x) => `x${x.x} y${x.y}`
-  },
-  quests: {
-    code: "NV", title: "Nhiệm vụ", short: "Nhiệm vụ", file: "Quests.json", layout: "cards",
-    description: "Nhiệm vụ và tiến độ server gửi cho các nhân vật đã đăng nhập.",
-    icon: () => null,
-    detail: (x) => x.tomTat || x.huongDan || x.loiThoai || "Không có mô tả",
-    tags: (x) => [x.chinh ? "nhiệm vụ chính" : "nhiệm vụ phụ", `trạng thái ${x.trangThai}`],
-    metric: (x) => x.mucTieu?.length ? `${x.mucTieu.length} mục tiêu` : ""
-  },
-  options: {
-    code: "CS", title: "Chỉ số", short: "Chỉ số", file: "ItemOptions.json", layout: "table",
-    description: "Tên và định dạng các chỉ số/option dùng trong vật phẩm và kỹ năng.",
-    icon: () => null,
-    detail: (x) => x.laPhanTram ? "Giá trị phần trăm" : "Giá trị số",
-    tags: (x) => [`màu ${x.mau}`, x.laPhanTram ? "phần trăm" : "số"],
-    metric: () => ""
-  },
-  characters: {
-    code: "NVẬT", title: "Nhân vật", short: "Nhân vật", file: "Characters.json", layout: "cards",
-    description: "Danh sách nhân vật ở nguồn đăng nhập gần nhất.",
-    icon: () => null,
-    detail: (x) => `${className(x.lop)} · cấp ${x.cap}`,
-    tags: (x) => [className(x.lop), `cấp ${x.cap}`, x.clan?.tenTat ? `clan ${x.clan.tenTat}` : "không clan"],
-    metric: (x) => `cấp ${x.cap}`
-  },
-  mapitems: {
-    code: "TM", title: "Mẫu tile", short: "Mẫu tile", file: "MapItemTemplates.json", layout: "table",
-    description: "Mẫu ảnh và các điểm neo dùng để cấu thành bản đồ.",
-    icon: (x) => numberOrNull(x.anh),
-    detail: (x) => `${x.diem?.length || 0} điểm neo`,
-    tags: (x) => [`ảnh ${x.anh}`, `${x.diem?.length || 0} điểm`],
-    metric: (x) => `${x.diem?.length || 0} điểm`
   }
 };
 
@@ -167,6 +131,11 @@ function className(value) {
   return CLASS_NAMES[number] || `Lớp ${number}`;
 }
 
+function skillClass(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? className(number) : "Chưa rõ phái";
+}
+
 function tradeLabel(value) {
   return value === true || Number(value) > 0 ? "giao dịch được" : "không giao dịch";
 }
@@ -180,11 +149,62 @@ function iconPath(id, extension = "png") {
   return `${DATA_ROOT}/Icons/${Math.floor(Number(id) / 1000)}/${id}.${extension}`;
 }
 
-function iconMarkup(id, label, large = false) {
+function iconMarkup(id, label, large = false, sprite = "") {
   if (id === null || id === undefined || (state.images && !state.images.has(Number(id)))) {
     return `<span class="icon-frame empty${large ? " large" : ""}" aria-hidden="true"></span>`;
   }
-  return `<span class="icon-frame${large ? " large" : ""}"><img src="${iconPath(id)}" data-icon-id="${escapeHtml(id)}" data-ext-index="0" alt="${escapeHtml(label)}" loading="lazy"></span>`;
+  const spriteAttr = sprite ? ` data-sprite="${sprite}"` : "";
+  return `<span class="icon-frame${large ? " large" : ""}"><img src="${iconPath(id)}" data-icon-id="${escapeHtml(id)}" data-ext-index="0"${spriteAttr} alt="${escapeHtml(label)}" loading="lazy"></span>`;
+}
+
+// Ảnh game rất nhỏ (18–22px): phóng theo bội số nguyên để pixel art giữ nét; ảnh lớn hơn
+// khung thì thu nhỏ vừa khung.
+function fitScale(width, height, box) {
+  const side = Math.max(width, height);
+  return side > box ? box / side : Math.max(1, Math.floor(box / side));
+}
+
+function spriteFrame(sprite, width, height) {
+  return sprite === "grid"
+    ? { width: Math.floor(width / 2), height: Math.floor(height / 3) }
+    : { width, height: Math.floor(height / 5) };
+}
+
+function setSpriteFrame(node, index) {
+  const frame = WALK_FRAMES[index % WALK_FRAMES.length];
+  const { sprite, fw, fh, scale } = node.dataset;
+  const x = sprite === "grid" ? Math.floor(frame / 3) * fw : 0;
+  const y = sprite === "grid" ? (frame % 3) * fh : frame * fh;
+  node.style.backgroundPosition = `${-x * scale}px ${-y * scale}px`;
+}
+
+function sizeImage(image) {
+  const width = image.naturalWidth;
+  const height = image.naturalHeight;
+  if (!width || !height) return;
+  const large = Boolean(image.closest(".icon-frame.large"));
+  const sprite = image.dataset.sprite;
+  if (!sprite) {
+    const scale = fitScale(width, height, large ? ICON_BOX_LARGE : ICON_BOX);
+    image.style.width = `${width * scale}px`;
+    image.style.height = `${height * scale}px`;
+    return;
+  }
+  const frame = spriteFrame(sprite, width, height);
+  const scale = fitScale(frame.width, frame.height, large ? SPRITE_BOX_LARGE : SPRITE_BOX);
+  const node = document.createElement("span");
+  node.className = "sprite";
+  node.setAttribute("role", "img");
+  node.setAttribute("aria-label", image.alt);
+  Object.assign(node.dataset, { sprite, fw: frame.width, fh: frame.height, scale });
+  Object.assign(node.style, {
+    width: `${frame.width * scale}px`,
+    height: `${frame.height * scale}px`,
+    backgroundImage: `url("${image.src}")`,
+    backgroundSize: `${width * scale}px ${height * scale}px`
+  });
+  setSpriteFrame(node, 0);
+  image.replaceWith(node);
 }
 
 function mountImageFallbacks(root = document) {
@@ -200,8 +220,18 @@ function mountImageFallbacks(root = document) {
         image.remove();
       }
     });
+    if (image.complete && image.naturalWidth) sizeImage(image);
+    else image.addEventListener("load", () => sizeImage(image));
   });
 }
+
+// Một bộ đếm chung cho mọi quái đang hiển thị, nhịp như vòng đi bộ của client.
+let spriteTick = 0;
+setInterval(() => {
+  if (reduceMotion?.matches || document.hidden) return;
+  spriteTick += 1;
+  document.querySelectorAll(".sprite").forEach((node) => setSpriteFrame(node, spriteTick));
+}, 220);
 
 async function fetchJson(file) {
   if (state.cache.has(file)) return state.cache.get(file);
@@ -298,7 +328,13 @@ function applyFilters(resetPage = false) {
   const query = normalize(state.query.trim());
   state.filtered = state.data.filter((record) => !query || normalize(JSON.stringify(record)).includes(query));
   const [field, direction] = state.sort.split("-");
+  const category = CATEGORIES[state.category];
   state.filtered.sort((a, b) => {
+    // Danh mục có nhóm (kỹ năng theo phái) luôn xếp theo nhóm trước, rồi mới theo lựa chọn.
+    if (category.groupOrder) {
+      const grouped = category.groupOrder(a) - category.groupOrder(b);
+      if (grouped) return grouped;
+    }
     const left = field === "name" ? normalize(recordName(a)) : Number(recordId(a));
     const right = field === "name" ? normalize(recordName(b)) : Number(recordId(b));
     const compared = typeof left === "string" ? left.localeCompare(right, "vi") : left - right;
@@ -322,7 +358,7 @@ function renderCard(category, record, absoluteIndex) {
   const icon = category.icon(record);
   return `<article class="record-card" role="button" tabindex="0" data-index="${absoluteIndex}" aria-selected="false">
     <div class="card-main">
-      ${iconMarkup(icon, name)}
+      ${iconMarkup(icon, name, false, category.sprite?.(record))}
       <div class="card-copy">
         <h2 class="card-title">${escapeHtml(name)}</h2>
         <div class="card-description">${escapeHtml(compactText(category.detail(record)))}</div>
@@ -349,15 +385,29 @@ function renderTable(category, records, start) {
   </table></div>`;
 }
 
+function renderGroups(category, records, start) {
+  const groups = [];
+  records.forEach((record, index) => {
+    const name = category.group(record);
+    if (groups.at(-1)?.name !== name) groups.push({ name, cards: [] });
+    groups.at(-1).cards.push(renderCard(category, record, start + index));
+  });
+  return groups.map((group) => `<section class="record-group" aria-label="${escapeHtml(group.name)}">
+    <h2 class="group-title"><span>${escapeHtml(group.name)}</span><small>${formatNumber(group.cards.length)} kỹ năng</small></h2>
+    <div class="card-grid">${group.cards.join("")}</div>
+  </section>`).join("");
+}
+
 function renderRecords() {
   const category = CATEGORIES[state.category];
+  const pageSize = category.pageSize || PAGE_SIZE;
   const total = state.filtered.length;
-  const pageCount = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
   state.page = Math.min(state.page, pageCount - 1);
-  const start = state.page * PAGE_SIZE;
-  const records = state.filtered.slice(start, start + PAGE_SIZE);
+  const start = state.page * pageSize;
+  const records = state.filtered.slice(start, start + pageSize);
   el("record-count").textContent = formatNumber(total);
-  el("result-note").textContent = total ? `Hiển thị ${formatNumber(start + 1)}–${formatNumber(Math.min(start + PAGE_SIZE, total))}` : "0 kết quả";
+  el("result-note").textContent = total ? `Hiển thị ${formatNumber(start + 1)}–${formatNumber(Math.min(start + pageSize, total))}` : "0 kết quả";
   grid.setAttribute("aria-busy", "false");
 
   if (!records.length) {
@@ -367,6 +417,8 @@ function renderRecords() {
     </div></div>`;
   } else if (category.layout === "table") {
     grid.innerHTML = renderTable(category, records, start);
+  } else if (category.group) {
+    grid.innerHTML = renderGroups(category, records, start);
   } else {
     grid.innerHTML = `<div class="card-grid">${records.map((record, index) => renderCard(category, record, start + index)).join("")}</div>`;
   }
@@ -410,7 +462,7 @@ function openDetail(index, invoker = null) {
   const name = recordName(record);
   el("detail-kind").textContent = category.title;
   el("detail-title").textContent = name;
-  const image = iconMarkup(category.icon(record), name, true);
+  const image = iconMarkup(category.icon(record), name, true, category.sprite?.(record));
   const description = compactText(category.detail(record));
   const fields = Object.entries(record).map(([key, value]) => `
     <div class="field-row"><dt>${escapeHtml(FIELD_LABELS[key] || key)}</dt><dd>${formatValue(value)}</dd></div>`).join("");

@@ -66,6 +66,8 @@ public sealed class CapKyNang
 
 public sealed class KyNang
 {
+    /// <summary>Lớp nhân vật nhận bảng kỹ năng này; -1 với dữ liệu cũ chưa ghi lớp.</summary>
+    public sbyte Lop { get; set; } = -1;
     public sbyte Id { get; set; }
     public sbyte IconId { get; set; }
     public string Ten { get; set; } = "";
@@ -160,7 +162,9 @@ public sealed class DuLieuHso
     public Dictionary<short, NguyenLieu> NguyenLieu { get; } = [];
     public Dictionary<short, TrangBi> TrangBi { get; } = [];
     public Dictionary<short, Quai> Quai { get; } = [];
-    public Dictionary<sbyte, KyNang> KyNang { get; } = [];
+    // Mỗi lớp có bộ kỹ năng riêng nhưng ID lặp lại từ 0, nên khóa là "lớp:id".
+    public Dictionary<string, KyNang> KyNang { get; } = [];
+    public sbyte LopHienTai { get; set; } = -1;
     public List<NhanVat> NhanVat { get; } = [];
     public Dictionary<short, BanDo> BanDo { get; } = [];
     public Dictionary<sbyte, Npc> Npc { get; } = [];

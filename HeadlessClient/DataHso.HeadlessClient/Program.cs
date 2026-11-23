@@ -84,6 +84,7 @@ public static class Program
             }
 
             Console.WriteLine($"Chọn [{c.NhanVat}] {nhanVat.Ten} (id {nhanVat.Id}, cấp {nhanVat.Cap}, lớp {nhanVat.Lop})");
+            lock (data.Khoa) data.LopHienTai = nhanVat.Lop; // bảng kỹ năng (cmd 29) đến sau khi chọn nhân vật
             await phien.GuiAsync(13, new BoGhi().Byte(0).Int(nhanVat.Id).Xong(), het.Token);
             await Task.WhenAny(doc.DaVaoMap.Task, Task.Delay(90_000, het.Token));
             BoXuat.Ghi(data, c.ThuMucRa, mayChu, c.NhanVat);
