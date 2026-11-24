@@ -105,6 +105,19 @@
   },
   {
     "trangThai": 0,
+    "id": 1626,
+    "chinh": false,
+    "ten": "NVTT: T\u00ECm \u0111\u1ED3 qu\u00FD 2",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 25,
+    "loiThoai": "1 \u0110\u00E1nh qu\u00E1i , nh\u1EB7t 3 m\u00F3n trang b\u1ECB cam b\u1EA5t k\u00EC",
+    "tomTat": "",
+    "huongDan": "\u0110\u00E1nh qu\u00E1i , nh\u1EB7t 3 m\u00F3n trang b\u1ECB cam b\u1EA5t k\u00EC",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
     "id": 1627,
     "chinh": false,
     "ten": "NVTT: Ph\u00F3 b\u1EA3n",

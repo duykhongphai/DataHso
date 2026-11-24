@@ -1694,7 +1694,7 @@
   {
     "id": 141,
     "iconId": 126,
-    "gia": 200000,
+    "gia": 300000,
     "ten": "M\u00E2m b\u1EA1c",
     "moTa": "V\u1EADt ph\u1EA9m s\u1EF1 ki\u1EC7n",
     "loai": 19,
@@ -1742,7 +1742,7 @@
   {
     "id": 145,
     "iconId": 130,
-    "gia": 30000,
+    "gia": 60000,
     "ten": "L\u1ED3ng \u0111\u00E8n \u0111\u1ECF",
     "moTa": "V\u1EADt ph\u1EA9m s\u1EF1 ki\u1EC7n",
     "loai": 19,
@@ -3698,7 +3698,7 @@
   {
     "id": 308,
     "iconId": 130,
-    "gia": 300000,
+    "gia": 600000,
     "ten": "L\u1ED3ng \u0111\u00E8n \u0111\u1ECF 10 ti\u1EBFng",
     "moTa": "V\u1EADt ph\u1EA9m s\u1EF1 ki\u1EC7n",
     "loai": 19,
