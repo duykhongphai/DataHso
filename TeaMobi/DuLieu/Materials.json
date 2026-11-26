@@ -4500,7 +4500,7 @@
   {
     "id": 346,
     "iconId": 347,
-    "gia": 150,
+    "gia": 75,
     "ten": "\u0110\u00E1 th\u1EA1ch anh c\u1EA5p 1",
     "moTa": "D\u00F9ng chuy\u1EC3n h\u00F3a trang b\u1ECB c\u00F3 ch\u1EC9 s\u1ED1 c\u01B0\u1EDDng h\u00F3a \u003C=10. Kh\u00F4ng t\u1EE5t ch\u1EC9 s\u1ED1, chuy\u1EC3n h\u00F3a ch\u00EDnh x\u00E1c 100% ch\u1EC9 s\u1ED1. T\u1EC9 l\u1EC7 th\u00E0nh c\u00F4ng 100%",
     "loai": 56,
@@ -4513,7 +4513,7 @@
   {
     "id": 347,
     "iconId": 348,
-    "gia": 350,
+    "gia": 175,
     "ten": "\u0110\u00E1 th\u1EA1ch anh c\u1EA5p 2",
     "moTa": "D\u00F9ng chuy\u1EC3n h\u00F3a trang b\u1ECB c\u00F3 ch\u1EC9 s\u1ED1 c\u01B0\u1EDDng h\u00F3a \u003E10 v\u00E0 \u003C13. Kh\u00F4ng t\u1EE5t ch\u1EC9 s\u1ED1, chuy\u1EC3n h\u00F3a ch\u00EDnh x\u00E1c 100% ch\u1EC9 s\u1ED1. T\u1EC9 l\u1EC7 th\u00E0nh c\u00F4ng 100%",
     "loai": 56,
@@ -4526,7 +4526,7 @@
   {
     "id": 348,
     "iconId": 349,
-    "gia": 500,
+    "gia": 250,
     "ten": "\u0110\u00E1 th\u1EA1ch anh c\u1EA5p 3",
     "moTa": "D\u00F9ng chuy\u1EC3n h\u00F3a trang b\u1ECB c\u00F3 ch\u1EC9 s\u1ED1 c\u01B0\u1EDDng h\u00F3a \u003E=13. Kh\u00F4ng t\u1EE5t ch\u1EC9 s\u1ED1, chuy\u1EC3n h\u00F3a ch\u00EDnh x\u00E1c 100% ch\u1EC9 s\u1ED1. T\u1EC9 l\u1EC7 th\u00E0nh c\u00F4ng 100%",
     "loai": 56,
