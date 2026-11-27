@@ -66,6 +66,19 @@
   },
   {
     "trangThai": 0,
+    "id": 1606,
+    "chinh": false,
+    "ten": "NVTT: Th\u1EED v\u1EADn may 2",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 13,
+    "loiThoai": "1 Chi\u1EBFn th\u1EAFng v\u00F2ng xoay may m\u1EAFn khi online",
+    "tomTat": "",
+    "huongDan": "Chi\u1EBFn th\u1EAFng v\u00F2ng xoay may m\u1EAFn khi online",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
     "id": 1611,
     "chinh": false,
     "ten": "NVTT: Ph\u00F3 b\u1EA3n",
