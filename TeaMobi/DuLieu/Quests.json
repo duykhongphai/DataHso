@@ -118,6 +118,19 @@
   },
   {
     "trangThai": 0,
+    "id": 1620,
+    "chinh": false,
+    "ten": "NVTT: R\u00EAu rao",
+    "loaiMucTieu": -1,
+    "npcGiao": -44,
+    "npcTra": 24,
+    "loiThoai": "1 Chat k\u00EAnh th\u1EBF gi\u1EDBi",
+    "tomTat": "",
+    "huongDan": "Chat k\u00EAnh th\u1EBF gi\u1EDBi",
+    "mucTieu": []
+  },
+  {
+    "trangThai": 0,
     "id": 1625,
     "chinh": false,
     "ten": "NVTT: L\u00F4i \u0111\u00E0i",
